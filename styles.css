@@ -9,6 +9,6 @@
     float: right !important;
     content:"\f067";
 }
-.panel-heading {
+.panel-title a {
     cursor: pointer;
 }
