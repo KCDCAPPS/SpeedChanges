@@ -7,8 +7,9 @@
 }
 .panel-title.collapsed:before {
     float: right !important;
+	font-family: FontAwesome;
     content:"\f067";
 }
-.panel-title a {
+.panel-default a {
     cursor: pointer;
 }
