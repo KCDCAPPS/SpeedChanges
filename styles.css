@@ -10,6 +10,6 @@
 	font-family: FontAwesome;
     content:"\f067";
 }
-.panel-default a {
+.panel-default {
     cursor: pointer;
 }
