@@ -1,11 +1,11 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
-.panel-title:before {
+.panel-heading:before {
     float: right !important;
     font-family: FontAwesome;
     content:"\f068";
     padding-right: 5px;
 }
-.panel-title.collapsed:before {
+.panel-heading.collapsed:before {
     float: right !important;
 	font-family: FontAwesome;
     content:"\f067";
