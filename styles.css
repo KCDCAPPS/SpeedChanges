@@ -1,15 +1,15 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
-.panel-heading:before {
-    float: right !important;
-    font-family: FontAwesome;
-    content:"\f068";
-    padding-right: 5px;
-}
-.panel-heading.collapsed:before {
-    float: right !important;
+.panel-heading .panel-title:before {
+	float: right !important;
 	font-family: FontAwesome;
-    content:"\f067";
+	content:"\f068";
+	padding-right: 5px;
+}
+.panel-heading.collapsed .panel-title:before {
+	float: right !important;
+	font-family: FontAwesome;
+	content:"\f067";
 }
 .panel-heading {
-    cursor: pointer;
+	cursor: pointer;
 }
