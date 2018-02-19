@@ -59,7 +59,7 @@ function addNewRoad(road, attributes, count){
 						'</p>',
 						'<p>"70" section of <strong>SH1</strong> that includes the intersection with <strong>Beach Road</strong> and <strong>Paekakariki Hill Road</strong>. <strong>Paekakariki Hill Road</strong> Kapiti Coast District Council part from SH1 to the Council bounday at the Lookout</p>',
 						'</ br>',
-						'<p><strong>Full PDF:</strong><a href="http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/1027 KAP speed review map1-05 (19Feb2017).pdf">Map 1: Paekākāriki Hill Road and SH1<a/> </p>',
+						'<p><strong>Full PDF:</strong><a href="http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/1027-kap-speed-review-map1-05-19feb2017.pdf"> Map 1: Paekākāriki Hill Road and SH1<a/> </p>',
 					'</div>',
 				'</div>',
 			'</div>',
