@@ -20,6 +20,10 @@ var roads =
 	}]
 };
 
+//Add accordion element
+$('<div id="accordion" class="panel-group"></div>' ).insertAfter( "#first-element" );
+
+
 function addNewRoad(road, attributes, count){
 	//Allow an external site to be added, so we will need to check to see if the URL contains a https or www as all internal links exclude this and all external ones requires either of these and can contain both.
 	//Remember -1 means not found. This allows us to easily change between production and uat with allowing for externally linked pages such as the QE2 park link which goes to a central government page
