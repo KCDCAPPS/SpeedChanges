@@ -79,7 +79,5 @@ $(document).ready(function() {
 		/*$.each(attrs, function(i, item) {
 		});*/
 	});	
-
-	$("#accordion").acc
 	
 });
