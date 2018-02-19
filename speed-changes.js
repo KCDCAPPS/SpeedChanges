@@ -69,7 +69,7 @@ function addNewRoad(road, attributes, count){
 
 $(document).ready(function() {
 	//Add accordion element
-	$('<div id="accordion" class="panel-group"></div>' ).insertAfter( "#first-element" );
+	$('<div id="accordion" class="panel-group"></div>' ).insertAfter( "#top-element" );
 	
 	//$('#accordion2').append()
 	var count = 0;
