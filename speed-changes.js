@@ -54,7 +54,7 @@ function addNewRoad(road, attributes, count){
 						'<p><strong>Locality plan</strong></p>',
 						'<p>',
 							'<span class="sf-Image-wrapper" data-sfref="[images|OpenAccessDataProvider|tmb:lg]79d3db3e-36f3-61b3-b84d-ff0000681c44">',
-								'<img alt="AVON RD" data-displaymode="Thumbnail" src="http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/paekakariki.png,,37077?epieditmode=False" title="AVON RD">',
+								'<img alt="AVON RD" data-displaymode="Thumbnail" src="http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/paekakariki.png,,37077?epieditmode=False" title="AVON RD" style="margin: 0 auto;" >',
 							'</span>',
 						'</p>',
 						'<p>"70" section of <strong>SH1</strong> that includes the intersection with <strong>Beach Road</strong> and <strong>Paekakariki Hill Road</strong>. <strong>Paekakariki Hill Road</strong> Kapiti Coast District Council part from SH1 to the Council bounday at the Lookout</p>',
