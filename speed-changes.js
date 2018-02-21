@@ -5,7 +5,7 @@ var roads =
 		'Current': '70',
 		'Proposed': '60',
 		'Rationale': 'Paekākāriki Hill Road traverses south from SH1 to Pauatahanui. The northern section has a 70 km/h speed limit from SH1 to the Porirua City Council boundary at the Lookout, where it changes to 60 km/h for the remainder of its length. The proposed 60 km/h speed limit is considered to best reflect the safety and use of this narrow windy road and would mean the entire length of Paekākāriki Hill Road would have the same 60 km/hr speed limit.',
-		'ImageUrl': 'http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/map1-paekakariki-hill.png',
+		'ImageUrl': 'http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/map1-paekakariki-hill.gif',
 		'ImageBlurb': '"70" section of <strong>SH1</strong> that includes the intersection with <strong>Beach Road</strong> and <strong>Paekakariki Hill Road</strong>. <strong>Paekakariki Hill Road</strong> Kapiti Coast District Council part from SH1 to the Council bounday at the Lookout',
 		'PdfUrl': 'http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/1027-kap-speed-review-map1-05-19feb2017.pdf',
 		'PdfName': 'Map 1: Paekākāriki Hill Road and SH1'
