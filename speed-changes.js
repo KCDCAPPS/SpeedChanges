@@ -16,7 +16,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of this section of SH1, in particular with the traffic movements at the intersections with Paekākāriki Hill Road and also Beach Road.',
 		'ImageUrl': 'http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/paekakariki.png',
-		'ImageBlurb': '"70" section of <strong>SH1</strong> that includes the intersection with <strong>Beach Road</strong> and <strong>Paekakariki Hill Road</strong>. <strong>Paekakariki Hill Road</strong> Kapiti Coast District Council part from SH1 to the Council bounday at the Lookout',
+		'ImageBlurb': '"70" section of <strong>Valley Road</strong>. 221 <strong>Valley Road</strong> to <strong>Waterfall Road</strong> and all of <strong>Maungakotukutuku Road</strong>',
 		'PdfUrl': 'http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/1027-kap-speed-review-map1-05-19feb2017.pdf',
 		'PdfName': 'Map 1: Paekākāriki Hill Road and SH1'
 	}],
@@ -26,7 +26,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of this section of SH1, in particular with the traffic movements at the intersections with Paekākāriki Hill Road and also Beach Road.',
 		'ImageUrl': 'http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/paekakariki.png',
-		'ImageBlurb': '"70" section of <strong>SH1</strong> that includes the intersection with <strong>Beach Road</strong> and <strong>Paekakariki Hill Road</strong>. <strong>Paekakariki Hill Road</strong> Kapiti Coast District Council part from SH1 to the Council bounday at the Lookout',
+		'ImageBlurb': '60m east <strong>Matai Road</strong> to <strong>The Esplanade</strong> extending 15m into <strong>Renown Road</strong>',
 		'PdfUrl': 'http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/1027-kap-speed-review-map1-05-19feb2017.pdf',
 		'PdfName': 'Map 1: Paekākāriki Hill Road and SH1'
 	}],
@@ -36,7 +36,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these roads, which are narrow, windy and popular with cyclists and pedestrians.',
 		'ImageUrl': 'http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/paekakariki.png',
-		'ImageBlurb': '"70" section of <strong>SH1</strong> that includes the intersection with <strong>Beach Road</strong> and <strong>Paekakariki Hill Road</strong>. <strong>Paekakariki Hill Road</strong> Kapiti Coast District Council part from SH1 to the Council bounday at the Lookout',
+		'ImageBlurb': '<strong>Garden Road</strong> looping around from <strong>Rosetta Road</strong>, Raumati Gardens, Waterfront Restaurant and Bar to <strong>Matatua Road</strong>.',
 		'PdfUrl': 'http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/1027-kap-speed-review-map1-05-19feb2017.pdf',
 		'PdfName': 'Map 1: Paekākāriki Hill Road and SH1'
 	}],
@@ -46,7 +46,7 @@ var roads =
 		'Proposed': '40',
 		'Rationale': '40 km/h is considered the safe and appropriate speed limit given the use of this road by cyclists and pedestrians and the link to Queen Elizabeth Park shared path; 40 km/hr also reflects the speed traffic actually travels at currently.',
 		'ImageUrl': 'http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/paekakariki.png',
-		'ImageBlurb': '"70" section of <strong>SH1</strong> that includes the intersection with <strong>Beach Road</strong> and <strong>Paekakariki Hill Road</strong>. <strong>Paekakariki Hill Road</strong> Kapiti Coast District Council part from SH1 to the Council bounday at the Lookout',
+		'ImageBlurb': 'The "80" section of <strong>Nikau Palm Road</strong> located from 57m east of <strong>Te Topi Road</strong> to <strong>Maui Pomare Street</strong>. <strong>Maui Pomare, Mahaki, Anlaby Roads</strong> and <strong>Angus</strong> and <strong>Eucalyptus Way</strong>',
 		'PdfUrl': 'http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/EPiServer/CMS/Content/globalassets/our-district/beaches/speed-changes/1027-kap-speed-review-map1-05-19feb2017.pdf',
 		'PdfName': 'Map 1: Paekākāriki Hill Road and SH1'
 	}],
