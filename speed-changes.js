@@ -53,7 +53,7 @@ var roads =
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map2-maungakotukutuku-valley-road.pdf',
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
-	'Popular Avenue': [{
+	'Poplar Avenue': [{
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
@@ -248,11 +248,6 @@ var roads =
 function addNewRoad(road, attributes, count){
 	//Allow an external site to be added, so we will need to check to see if the URL contains a https or www as all internal links exclude this and all external ones requires either of these and can contain both.
 	//Remember -1 means not found. This allows us to easily change between production and uat with allowing for externally linked pages such as the QE2 park link which goes to a central government page
-	//var parkUrl = (parkAttributes.Webpage.indexOf('http') == -1 &&  parkAttributes.Webpage.indexOf('www') == -1) ? domain + parkAttributes.Webpage : parkAttributes.Webpage;
-	console.log('attributes');
-	console.log(attributes);
-	console.log(attributes['Current']);
-	
 	
 	var parkList = [
 		'<div class="panel panel-default">',
@@ -289,14 +284,10 @@ function addNewRoad(road, attributes, count){
 $(document).ready(function() {
 	//Add accordion element
 	$('<div id="accordion" class="panel-group"></div>' ).insertAfter( "#top-element" );
-	
-	//$('#accordion2').append()
+
 	var count = 0;
 	$.each(roads, function(road, attrs) {
-		console.log(attrs);
 		addNewRoad(road, attrs[0], count++);
-		/*$.each(attrs, function(i, item) {
-		});*/
 	});	
 	
 });
