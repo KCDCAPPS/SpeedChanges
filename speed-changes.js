@@ -220,7 +220,7 @@ var roads =
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these narrow windy roads.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map10-otaki.gif',
 		'ImageBlurb': '<strong>Greenwood Boulevard</strong> and <strong>Sunglo Terrace</strong>',
-		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map10-otaki.pdf',,
+		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map10-otaki.pdf',
 		'PdfName': 'Map 10: Ōtaki'
 	}],
 	'Ringawati Road': [{
