@@ -273,7 +273,7 @@ function addNewRoad(road, attributes, count){
 						'<div class=>',
 							'<img class="img-responsive" alt="' + road + '" src="' + attributes['ImageUrl'] + '" title="' + road + '" style="margin: 0 auto; padding: 3px; border: 1px solid #ddd; border-radius: 3px; transition: all 0.2s ease-in-out; width: 85%; height: 85%;" >',
 						'</p>',
-						'<p style="text-align=center">' + attributes['ImageBlurb'] + '</p>',
+						'<p style="text-align:center">' + attributes['ImageBlurb'] + '</p>',
 						'<br>',
 						'<p><strong>Full PDF: </strong><a target="_blank" href="' + attributes['PdfUrl'] + '">' + attributes['PdfName'] + '<a/></p>',
 					'</div>',
