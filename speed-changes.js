@@ -10,7 +10,7 @@ var roads =
 		'Rationale': 'Paekākāriki Hill Road traverses south from SH1 to Pauatahanui. The northern section has a 70 km/h speed limit from SH1 to the Porirua City Council boundary at the Lookout, where it changes to 60 km/h for the remainder of its length. The proposed 60 km/h speed limit is considered to best reflect the safety and use of this narrow windy road and would mean the entire length of Paekākāriki Hill Road would have the same 60 km/hr speed limit.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map1-paekakariki-hill.gif',
 		'ImageBlurb': '"70" section of <strong>SH1</strong> that includes the intersection with <strong>Beach Road</strong> and <strong>Paekakariki Hill Road</strong>. <strong>Paekakariki Hill Road</strong> Kapiti Coast District Council part from SH1 to the Council bounday at the Lookout',
-		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map1-paekakariki-hill.pdf',
+		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map1-paekakariki-hill.pdf',
 		'PdfName': 'Map 1: Paekākāriki Hill Road and SH1'
 	}],
 	'SH1 at Paekākāriki': [{
@@ -20,7 +20,7 @@ var roads =
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of this section of SH1, in particular with the traffic movements at the intersections with Paekākāriki Hill Road and also Beach Road.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map1-paekakariki-hill.gif',
 		'ImageBlurb': '"70" section of <strong>SH1</strong> that includes the intersection with <strong>Beach Road</strong> and <strong>Paekakariki Hill Road</strong>. <strong>Paekakariki Hill Road</strong> Kapiti Coast District Council part from SH1 to the Council bounday at the Lookout',
-		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map1-paekakariki-hill.pdf',
+		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map1-paekakariki-hill.pdf',
 		'PdfName': 'Map 1: Paekākāriki Hill Road and SH1'
 	}],
 	'Maungakotukutuku Road': [{
