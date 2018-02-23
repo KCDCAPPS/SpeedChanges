@@ -54,10 +54,10 @@ var roads =
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
 	'Poplar Avenue': [{
-		'FromTo': 'Full length',
-		'Current': '100',
-		'Proposed': '60',
-		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of this section of SH1, in particular with the traffic movements at the intersections with Paekākāriki Hill Road and also Beach Road.',
+		'FromTo': 'From 60m east of Matai Road to The Esplanade and extending 15m into Renown Road',
+		'Current': '50',
+		'Proposed': '40',
+		'Rationale': '40 km/h is considered the safe and appropriate speed limit given the use of this road by cyclists and pedestrians and the link to Queen Elizabeth Park shared path; 40 km/hr also reflects the speed traffic actually travels at currently.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map3-popular-ave.gif',
 		'ImageBlurb': '60m east <strong>Matai Road</strong> to <strong>The Esplanade</strong> extending 15m into <strong>Renown Road</strong>',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map3-popular-ave.pdf',
