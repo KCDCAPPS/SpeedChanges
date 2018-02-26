@@ -27,7 +27,7 @@ var roads =
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
-		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of this section of SH1, in particular with the traffic movements at the intersections with Paekākāriki Hill Road and also Beach Road.',
+		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of this road which are narrow, windy and popular with cyclists and pedestrians',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map2-maungakotukutuku-valley-road.gif',
 		'ImageBlurb': '"70" section of <strong>Valley Road</strong>. 221 <strong>Valley Road</strong> to <strong>Waterfall Road</strong> and all of <strong>Maungakotukutuku Road</strong>',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map2-maungakotukutuku-valley-road.pdf',
@@ -44,10 +44,10 @@ var roads =
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
 	'Valley Road 70 km/h section': [{
-		'FromTo': 'From 60m east of Matai Road to The Esplanade and extending 15m into Renown Road',
-		'Current': '60',
-		'Proposed': '40',
-		'Rationale': '40 km/h is considered the safe and appropriate speed limit given the use of this road by cyclists and pedestrians and the link to Queen Elizabeth Park shared path; 40 km/hr also reflects the speed traffic actually travels at currently.',
+		'FromTo': '221 Valley Road to Kapiti Golf Course at 104 Valley Road',
+		'Current': '70',
+		'Proposed': '60',
+		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of this road which are narrow, windy and popular with cyclists and pedestrians.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map2-maungakotukutuku-valley-road.gif',
 		'ImageBlurb': '"70" section of <strong>Valley Road</strong>. 221 <strong>Valley Road</strong> to <strong>Waterfall Road</strong> and all of <strong>Maungakotukutuku Road</strong>',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map2-maungakotukutuku-valley-road.pdf',
@@ -93,7 +93,7 @@ var roads =
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map5-nikau-valley.pdf',
 		'PdfName': 'Map 5: Nikau Valley, Paraparaumu'
 	}],
-	'Ngatiawa, Mangaone South, Kents Road, Rangiora Road': [{
+	'Ngatiawa Road, Mangaone South Road, Kents Road, Rangiora Road and Terrace Road': [{
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
