@@ -74,12 +74,12 @@ var roads =
 		'PdfName': 'Map 4: Garden Road, Raumati Beach'
 	}],
 	'Nikau Palm Road': [{
-		'FromTo': '"80" section (i.e. from 57m east of Te Topi Road to Maui Pomare Street)',
+		'FromTo': 'Maui Pomare Street to Maui Pomare Road ',
 		'Current': '80',
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these roads, and the rural lifestyle nature of the area.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map5-nikau-valley.gif',
-		'ImageBlurb': 'The "80" section of <strong>Nikau Palm Road</strong> located from 57m east of <strong>Te Topi Road</strong> to <strong>Maui Pomare Street</strong>.',
+		'ImageBlurb': '<strong>Maui Pomare Street</strong> to <strong>Maui Pomare Road</strong>.',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map5-nikau-valley.pdf',
 		'PdfName': 'Map 5: Nikau Valley, Paraparaumu'
 	}],
@@ -99,7 +99,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these narrow windy roads which are popular for cyclists and include access to tramping tracks including the Te Araroa walkway.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map6-reikorangi.gif',
-		'ImageBlurb': '<strong>Akatarawa</strong> from <strong>Reikorangi Road</strong> to 147 <strong>Akatarawa Road</strong>, <strong>Ngatiawa</strong>, <strong>Mangaone South</strong>, and all side roads (<strong>Kents Road</strong>, <strong>Rangiora Road</strong>) <strong>Reikorangi Road</strong>.',
+		'ImageBlurb': '"100" section of <strong>Reikorangi Road</strong> and <strong>Akatarawa Road</strong> and full length of <strong>Ngatiawa Road</strong>, <strong>Mangaone South Road</strong>, <strong>Kents Road</strong>, <strong>Rangiora Road</strong> and <strong>Terrace Road</strong>.',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map6-reikorangi.pdf',
 		'PdfName': 'Map 6: Reikorangi, Waikanae'
 	}],
@@ -109,7 +109,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these narrow windy roads which are popular for cyclists and include access to tramping tracks including the Te Araroa walkway.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map6-reikorangi.gif',
-		'ImageBlurb': '<strong>Akatarawa</strong> from <strong>Reikorangi Road</strong> to 147 <strong>Akatarawa Road</strong>, <strong>Ngatiawa</strong>, <strong>Mangaone South</strong>, and all side roads (<strong>Kents Road</strong>, <strong>Rangiora Road</strong>) <strong>Reikorangi Road</strong>.',
+		'ImageBlurb': '"100" section of <strong>Reikorangi Road</strong> and <strong>Akatarawa Road</strong> and full length of <strong>Ngatiawa Road</strong>, <strong>Mangaone South Road</strong>, <strong>Kents Road</strong>, <strong>Rangiora Road</strong> and <strong>Terrace Road</strong>.',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map6-reikorangi.pdf',
 		'PdfName': 'Map 6: Reikorangi, Waikanae'
 	}],
@@ -129,7 +129,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these narrow windy roads which are popular for cyclists and include access to tramping tracks including the Te Araroa walkway.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map6-reikorangi.gif',
-		'ImageBlurb': '<strong>Akatarawa</strong> from <strong>Reikorangi Road</strong> to 147 <strong>Akatarawa Road</strong>, <strong>Ngatiawa</strong>, <strong>Mangaone South</strong>, and all side roads (<strong>Kents Road</strong>, <strong>Rangiora Road</strong>) <strong>Reikorangi Road</strong>.',
+		'ImageBlurb': '"100" section of <strong>Reikorangi Road</strong> and <strong>Akatarawa Road</strong> and full length of <strong>Ngatiawa Road</strong>, <strong>Mangaone South Road</strong>, <strong>Kents Road</strong>, <strong>Rangiora Road</strong> and <strong>Terrace Road</strong>.',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map6-reikorangi.pdf',
 		'PdfName': 'Map 6: Reikorangi, Waikanae'
 	}],
@@ -139,7 +139,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these narrow windy roads and would be consistent with the 60 km/h speed limit on the adjoining Nga Manu Road and Maurice Smith Way. Ngarara Road is also used to access a tourist destination – the Nga Manu Reserve',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map7-ngarara-jacks-bush-smithfield.gif',
-		'ImageBlurb': '"70" section of <strong>Ngarara</strong> and <strong>Jacks Bush Road</strong>.',
+		'ImageBlurb': '70 km/h section of Ngarara Road.',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map7-ngarara-jacks-bush-smithfield.pdf',
 		'PdfName': 'Map 7: Ngarara Road, Jacks Bush Road and Smithfield Road'
 	}],
@@ -149,7 +149,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these narrow windy roads and would be consistent with the 60 km/h speed limit on the adjoining Nga Manu Road and Maurice Smith Way. Ngarara Road is also used to access a tourist destination – the Nga Manu Reserve',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map7-ngarara-jacks-bush-smithfield.gif',
-		'ImageBlurb': '"70" section of <strong>Ngarara</strong> and <strong>Jacks Bush Road</strong>.',
+		'ImageBlurb': '70 km/h section of Ngarara Road.',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map7-ngarara-jacks-bush-smithfield.pdf',
 		'PdfName': 'Map 7: Ngarara Road, Jacks Bush Road and Smithfield Road'
 	}],
@@ -223,13 +223,13 @@ var roads =
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map10-otaki.pdf',
 		'PdfName': 'Map 10: Ōtaki'
 	}],
-	'Ringawati Road': [{
+	'Ringawhati Road': [{
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these narrow windy roads.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map10-otaki.gif',
-		'ImageBlurb': '<strong>Ringawati Road</strong> and "100" section of <strong>Rahui Road</strong>',
+		'ImageBlurb': '<strong>Ringawhati Road</strong> and "100" section of <strong>Rahui Road</strong>',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map10-otaki.pdf',
 		'PdfName': 'Map 10: Ōtaki'
 	}],
