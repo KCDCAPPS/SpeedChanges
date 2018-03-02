@@ -74,12 +74,12 @@ var roads =
 		'PdfName': 'Map 4: Garden Road, Raumati Beach'
 	}],
 	'Nikau Palm Road': [{
-		'FromTo': 'Maui Pomare Street to Maui Pomare Road ',
+		'FromTo': '"80" section (i.e. from 57m east of Te Topi Road to Maui Pomare Road)',
 		'Current': '80',
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these roads, and the rural lifestyle nature of the area.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map5-nikau-valley.gif',
-		'ImageBlurb': '<strong>Maui Pomare Street</strong> to <strong>Maui Pomare Road</strong>.',
+		'ImageBlurb': 'The "80" section of <strong>Nikau Palm Road</strong> located from 57m east of <strong>Te Topi Road</strong> to <strong>Maui Pomare Road</strong>.',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map5-nikau-valley.pdf',
 		'PdfName': 'Map 5: Nikau Valley, Paraparaumu'
 	}],
