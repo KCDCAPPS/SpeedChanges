@@ -33,7 +33,7 @@ var roads =
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map2-maungakotukutuku-valley-road.pdf',
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
-	'Valley Road 1st Section section': [{
+	'Valley Road - 1st Section': [{
 		'FromTo': '"100" section (i.e. from Waterfall Road to 221 Valley Road)',
 		'Current': '100',
 		'Proposed': '60',
@@ -43,7 +43,7 @@ var roads =
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map2-maungakotukutuku-valley-road.pdf',
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
-	'Valley Road 2nd Section': [{
+	'Valley Road - 2nd Section': [{
 		'FromTo': '221 Valley Road to Kapiti Golf Course at 104 Valley Road',
 		'Current': '70',
 		'Proposed': '60',
@@ -53,7 +53,7 @@ var roads =
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map2-maungakotukutuku-valley-road.pdf',
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
-	'Poplar Avenue Option 1': [{
+	'Poplar Avenue - Option 1': [{
 		'FromTo': 'From 60m east of Matai Road to 35m east of Tenis Court Road',
 		'Current': '50',
 		'Proposed': '40',
@@ -63,7 +63,7 @@ var roads =
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map3-poplar-ave-option1.pdf',
 		'PdfName': 'Map 3: Poplar Avenue, Raumati South - Option 1'
 	}],
-	'Poplar Avenue Option 2': [{
+	'Poplar Avenue - Option 2': [{
 		'FromTo': 'As for option 1 with a 30 speed limit from: 35m east of Tennis Court Road (outside 45 Poplar Avenue) to 45m south of Renown Road (outside 23 Poplar Avenue) extending 15m north into Renown Road',
 		'Current': '50',
 		'Proposed': '40 km/h and 30',
