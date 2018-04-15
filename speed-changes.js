@@ -58,9 +58,9 @@ var roads =
 		'Current': '50',
 		'Proposed': '40',
 		'Rationale': '40 km/h is considered the safe and appropriate speed limit given the use of this road by cyclists abd pedestrians and the link to Queen Elizabeth Park shared path; 40 km/hr also reflects the speed traffic actually travels at currently',
-		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map3-popular-ave-option1.gif',
+		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map3-poplar-ave-option1.gif',
 		'ImageBlurb': '60m east <strong>Matai Road</strong> to <strong>The Esplanade</strong> extending 15m into <strong>Renown Road</strong>',
-		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map3-popular-ave-option1.pdf',
+		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map3-poplar-ave-option1.pdf',
 		'PdfName': 'Map 3: Poplar Avenue, Raumati South - Option 1'
 	}],
 	'Poplar Avenue Option 2': [{
@@ -68,9 +68,9 @@ var roads =
 		'Current': '50',
 		'Proposed': '40 km/h and 30',
 		'Rationale': 'As per option 1 plus 30km/hr is an appropriate speed for the shopping area which has traffic calming and also reflects the speed traffic actually travels at.',
-		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map3-popular-ave-option2.gif',
+		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map3-poplar-ave-option2.gif',
 		'ImageBlurb': '60m east <strong>Matai Road</strong> to 35m east of <strong>Tennis Court Road</strong>, 35m east of <strong>Tennis Court Road</strong> (outside 45 Poplar Avenue) to 45m south of <strong>Renown Road<strong> (outside 23 Poplar Avenue) extending 15m north into <strong>Renown Road</strong>. and 45m south of <strong>Renown Road</strong> to <strong>The Esplanade</strong>.',
-		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map3-popular-ave-option2.pdf',
+		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map3-poplar-ave-option2.pdf',
 		'PdfName': 'Map 3: Poplar Avenue, Raumati South - Option 2'
 	}],
 	'Garden Road and Matatua Road extension': [{
