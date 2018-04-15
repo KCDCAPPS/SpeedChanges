@@ -29,39 +29,49 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of this road which are narrow, windy and popular with cyclists and pedestrians',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map2-maungakotukutuku-valley-road.gif',
-		'ImageBlurb': '"70" section of <strong>Valley Road</strong>. 221 <strong>Valley Road</strong> to <strong>Waterfall Road</strong> and all of <strong>Maungakotukutuku Road</strong>',
+		'ImageBlurb': '221 <strong>Valley Road</strong> to <strong>Waterfall Road</strong> and all of <strong>Maungakotukutuku Road</strong>',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map2-maungakotukutuku-valley-road.pdf',
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
-	'Valley Road 100 km/h section': [{
+	'Valley Road 1st Section section': [{
 		'FromTo': '"100" section (i.e. from Waterfall Road to 221 Valley Road)',
 		'Current': '100',
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these roads, which are narrow, windy and popular with cyclists and pedestrians.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map2-maungakotukutuku-valley-road.gif',
-		'ImageBlurb': '"70" section of <strong>Valley Road</strong>. 221 <strong>Valley Road</strong> to <strong>Waterfall Road</strong> and all of <strong>Maungakotukutuku Road</strong>',
+		'ImageBlurb': '221 <strong>Valley Road</strong> to <strong>Waterfall Road</strong> and all of <strong>Maungakotukutuku Road</strong>',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map2-maungakotukutuku-valley-road.pdf',
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
-	'Valley Road 70 km/h section': [{
+	'Valley Road 2nd Section': [{
 		'FromTo': '221 Valley Road to Kapiti Golf Course at 104 Valley Road',
 		'Current': '70',
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of this road which are narrow, windy and popular with cyclists and pedestrians.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map2-maungakotukutuku-valley-road.gif',
-		'ImageBlurb': '"70" section of <strong>Valley Road</strong>. 221 <strong>Valley Road</strong> to <strong>Waterfall Road</strong> and all of <strong>Maungakotukutuku Road</strong>',
+		'ImageBlurb': '"70" section of <strong>Valley Road</strong>.',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map2-maungakotukutuku-valley-road.pdf',
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
-	'Poplar Avenue': [{
-		'FromTo': 'From 60m east of Matai Road to The Esplanade and extending 15m into Renown Road',
+	'Poplar Avenue Option 1': [{
+		'FromTo': 'From 60m east of Matai Road to 35m east of Tenis Court Road',
 		'Current': '50',
 		'Proposed': '40',
-		'Rationale': '40 km/h is considered the safe and appropriate speed limit given the use of this road by cyclists and pedestrians and the link to Queen Elizabeth Park shared path; 40 km/hr also reflects the speed traffic actually travels at currently.',
-		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map3-popular-ave.gif',
+		'Rationale': '40 km/h is considered the safe and appropriate speed limit given the use of this road by cyclists abd pedestrians and the link to Queen Elizabeth Park shared path; 40 km/hr also reflects the speed traffic actually travels at currently',
+		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map3-popular-ave-option1.gif',
 		'ImageBlurb': '60m east <strong>Matai Road</strong> to <strong>The Esplanade</strong> extending 15m into <strong>Renown Road</strong>',
-		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map3-popular-ave.pdf',
-		'PdfName': 'Map 3: Poplar Avenue, Raumati South'
+		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map3-popular-ave-option1.pdf',
+		'PdfName': 'Map 3: Poplar Avenue, Raumati South - Option 1'
+	}],
+	'Poplar Avenue Option 2': [{
+		'FromTo': 'As for option 1 with a 30 speed limit from: 35m east of Tennis Court Road (outside 45 Poplar Avenue) to 45m south of Renown Road (outside 23 Poplar Avenue) extending 15m north into Renown Road',
+		'Current': '50',
+		'Proposed': '40 km/h and 30',
+		'Rationale': 'As per option 1 plus 30km/hr is an appropriate speed for the shopping area which has traffic calming and also reflects the speed traffic actually travels at.',
+		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map3-popular-ave-option2.gif',
+		'ImageBlurb': '60m east <strong>Matai Road</strong> to 35m east of <strong>Tennis Court Road</strong>, 35m east of <strong>Tennis Court Road</strong> (outside 45 Poplar Avenue) to 45m south of <strong>Renown Road<strong> (outside 23 Poplar Avenue) extending 15m north into <strong>Renown Road</strong>. and 45m south of <strong>Renown Road</strong> to <strong>The Esplanade</strong>.',
+		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map3-popular-ave-option2.pdf',
+		'PdfName': 'Map 3: Poplar Avenue, Raumati South - Option 2'
 	}],
 	'Garden Road and Matatua Road extension': [{
 		'FromTo': 'From Rosetta Road through Garden Road and around to Matatua Road',
@@ -79,7 +89,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these roads, and the rural lifestyle nature of the area.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map5-nikau-valley.gif',
-		'ImageBlurb': 'The "80" section of <strong>Nikau Palm Road</strong> located from 57m east of <strong>Te Topi Road</strong> to <strong>Maui Pomare Road</strong>.',
+		'ImageBlurb': 'The "80" section of <strong>Nikau Palm Road</strong> located from 57m east of <strong>Te Topi Road</strong> to <strong>Maui Pomare Street</strong>.',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map5-nikau-valley.pdf',
 		'PdfName': 'Map 5: Nikau Valley, Paraparaumu'
 	}],
@@ -119,7 +129,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these narrow windy roads which are popular for cyclists and include access to tramping tracks including the Te Araroa walkway.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map6-reikorangi.gif',
-		'ImageBlurb': '<strong>Reikorangi Road</strong> from end of 50 east to end of <strong>Reikorangi Road</strong>',
+		'ImageBlurb': '<strong>Reikorangi Road</strong> "70" section',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map6-reikorangi.pdf',
 		'PdfName': 'Map 6: Reikorangi, Waikanae'
 	}],
@@ -139,7 +149,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these narrow windy roads and would be consistent with the 60 km/h speed limit on the adjoining Nga Manu Road and Maurice Smith Way. Ngarara Road is also used to access a tourist destination – the Nga Manu Reserve',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map7-ngarara-jacks-bush-smithfield.gif',
-		'ImageBlurb': '70 km/h section of Ngarara Road.',
+		'ImageBlurb': '<strong>Jacks Bush Road</strong> full length',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map7-ngarara-jacks-bush-smithfield.pdf',
 		'PdfName': 'Map 7: Ngarara Road, Jacks Bush Road and Smithfield Road'
 	}],
@@ -189,7 +199,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these narrow roads which also provide access to lifestyle properties and a Lavender Farm which is a tourist destination.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map9-tehoro.gif',
-		'ImageBlurb': '<strong>Gear Road</strong> from 90m west of <strong>Settlement Road</strong> to the end. <strong>Settlement, Sutton</strong> and <strong>Best Roads</strong> - full length.',
+		'ImageBlurb': '<strong>Settlement, Sutton</strong> and <strong>Best Roads</strong> - full length.',
 		'PdfUrl':  domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map9-tehoro.pdf',
 		'PdfName': 'Map 9: Te Horo'
 	}],
@@ -229,7 +239,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of these narrow windy roads.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map10-otaki.gif',
-		'ImageBlurb': '<strong>Ringawhati Road</strong> and "100" section of <strong>Rahui Road</strong>',
+		'ImageBlurb': '<strong>Ringawhati Road</strong> and "100" section of <strong>Rahui Road</strong> and <strong>Waimanu Road</strong>',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map10-otaki.pdf',
 		'PdfName': 'Map 10: Ōtaki'
 	}],
@@ -261,8 +271,8 @@ function addNewRoad(road, attributes, count){
 					'<div>',
 						'<p><strong>Road name: </strong>' + road + '</p>',
 						'<p><strong>From/to: </strong>' + attributes['FromTo'] +  '</p>',
-						'<p><strong>Current speed:</strong> ' + attributes['Current'] + ' km/hr</p>',
-						'<p><strong>Proposed speed:</strong> ' + attributes['Proposed'] + ' km/hr</p>', 
+						'<p><strong>Current speed:</strong> ' + attributes['Current'] + ' km/h</p>',
+						'<p><strong>Proposed speed:</strong> ' + attributes['Proposed'] + ' km/h</p>', 
 						'<p><strong>RATIONALE FOR PROPOSED CHANGE: </strong>' + attributes['Rationale'] + '</p>',
 						'<p><strong>Road Map:</strong></p>',
 						'<div class=>',
