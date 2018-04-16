@@ -159,7 +159,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h is considered by the NZTA to best reflect the safety and use of this narrow, windy road and would be consistent with the 60 km/h speed limit on the adjoining Nga Manu Reserve Road and Maurice Smith Way. Ngarara Road is also used to access a tourist destination – The Nga Manu Reserve. The current average travel speeds on Ngarara Road are below 60 km/h so the proposed speed limit will not mean slower travel times and is unlikely to increase travel times as it’s appropriate for the road environment. ',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map7-ngarara-jacks-bush-smithfield.gif',
-		'ImageBlurb': '70 km/h section of Ngarara Road.',
+		'ImageBlurb': '70 km/h section of <strong>Ngarara Road</strong>.',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map7-ngarara-jacks-bush-smithfield.pdf',
 		'PdfName': 'Map 7: Ngarara Road, Jacks Bush Road and Smithfield Road'
 	}],
