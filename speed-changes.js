@@ -67,7 +67,7 @@ var roads =
 		'FromTo': 'As per option 1 but with 30 km/h through the shops: <br /> • 40 km/h (for 340m) from 60m east Matai Road to 35m east Tennis Court Road/ outside 45 Poplar Ave) <br /> • 30 km/h (for 205m) from 35m east of Tennis Court Road to 45m south of Renown Road outside 23 Poplar Ave, extending 15m north into Renown Road (Raumati South shopping area) <br /> • 40 km/h (for 205m) from 23 Poplar Ave to The Esplanade',
 		'Current': '50',
 		'Proposed': '40 km/h and 30',
-		'Rationale': 'Based on engagement feedback received, we are providing an option that will include a 40 km/h speed limit from 65m east of Poplar Avenue to The Esplanade as for option 1 with a 30 km/h speed limit through the Raumati South shopping area.  The proposed speed limit reflects the road environment which is windy, has blind intersections and has a shopping centre that has been engineered to give a slow speed environment through. The proposed speed limits also reflect the current average speed traffic travel along these sections of Poplar Avenue so will not delay traffic.',
+		'Rationale': 'Based on engagement feedback received, we are providing an option that will include a 40 km/h speed limit from 65m east of Poplar Avenue to The Esplanade as for option 1 with a 30 km/h speed limit through the Raumati South shopping area.  The proposed speed limit reflects the road environment which is windy, has blind intersections and has a shopping centre that has been engineered to give a slow speed environment through. The proposed speed limits also reflect the current average speed traffic travel along these sections of Poplar Avenue so will not delay traffic..',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map3-poplar-ave-option2.gif',
 		'ImageBlurb': '60m east <strong>Matai Road</strong> to 35m east of <strong>Tennis Court Road</strong>, 35m east of <strong>Tennis Court Road</strong> (outside 45 Poplar Avenue) to 45m south of <strong>Renown Road</strong> (outside 23 Poplar Avenue) extending 15m north into <strong>Renown Road</strong>. and 45m south of <strong>Renown Road</strong> to <strong>The Esplanade</strong>.',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map3-poplar-ave-option2.pdf',
@@ -177,7 +177,7 @@ var roads =
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
-		'Rationale': 'The proposed 60 km/h is considered by the NZTA to best reflect the safety and use of these narrow rural roads which provide access to rural properties. The current 100 km/h speed limit is out of context with the adjoining much higher quality expressway off ramps at the Peka Peka expressway interchange which have an 80 km/h speed limits. The current average travel speeds on these roads are below 60 km/h so the proposed speed limit will not mean slower travel times.',
+		'Rationale': 'The proposed 60 km/h is considered by the NZTA to best reflect the safety and use of these narrow rural roads which provide access to rural properties. The current 100 km/h speed limit is out of context with the adjoining much higher quality expressway off ramps at the Peka Peka expressway which have a 80 km/h speed limit. The current average travel speeds on these roads are below 60 km/h so the proposed speed limit will not mean slower travel times.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map8-pekapeka.gif',
 		'ImageBlurb': '<strong>Te Kowhai</strong> and <strong>Gary Roads</strong>. <strong>Hadfield</strong> and <strong>Octavius Roads</strong>',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map8-pekapeka.pdf',
@@ -243,7 +243,7 @@ var roads =
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map10-otaki.pdf',
 		'PdfName': 'Map 10: Ōtaki'
 	}],
-	'Rahui Roads': [{
+	'Rahui Road': [{
 		'FromTo': 'for the 100 km/h section of Rahui Road from 186 Rahui Road east to the end of Rahui Road',
 		'Current': '100',
 		'Proposed': '60',
