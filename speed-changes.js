@@ -19,7 +19,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h speed limit is considered by the NZTA to best reflect the safety and use of this section of SH1, in particular with the traffic movements at the intersections with Paekākāriki Hill Road and also Beach Road.',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map1-paekakariki-hill.gif',
-		'ImageBlurb': '"70" section of <strong>SH1</strong> that includes the intersection with <strong>Beach Road</strong> and <strong>Paekakariki Hill Road</strong>. <strong>Paekakariki Hill Road</strong> Kapiti Coast District Council part from SH1 to the Council bounday at the Lookout',
+		'ImageBlurb': 'The current 70 km/h section (includes the intersection with Beach Road and Pāekākariki Hill Road)',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map1-paekakariki-hill.pdf',
 		'PdfName': 'Map 1: Paekākāriki Hill Road and SH1'
 	}],
@@ -119,7 +119,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'The proposed 60 km/h is considered by the NZTA to best reflect the safety and use of this very narrow, windy road which is popular for cyclists and serves as a through route to Upper Hutt. The average speed vehicles travel over this road is below 60 km/h so the proposed speed limit will not mean slower travel times. To clarify Council would also like to reaffirm the ‘50’ from 147 Akatarawa Road to the Hutt City boundary is to stay ‘50’ as signed rather than be changed to 60.  While ‘50’ is not now used in rural areas, this was considered an exception as it was installed as part of a Land Transport Safety Authority (now NZTA), regional speed limit/speed zone study in 2006. The ’50’ reflects the road environment on both Council’s side and Hutt City’s side, and is consistent with their ‘50’ speed limit..',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map6-reikorangi.gif',
-		'ImageBlurb': '"100" section of <strong>Reikorangi Road</strong> and <strong>Akatarawa Road</strong> and full length of <strong>Ngatiawa Road</strong>, <strong>Mangaone South Road</strong>, <strong>Kents Road</strong>, <strong>Rangiora Road</strong> and <strong>Terrace Road</strong>.',
+		'ImageBlurb': 'For the 100km/h section of <strong>Akatarawa Road</strong> from <strong>Reikorangi Road</strong> to the "50" km/h signs at 147 <strong>Akatarawa Road</strong> (100 m south of Ratadale Road).',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map6-reikorangi.pdf',
 		'PdfName': 'Map 6: Reikorangi, Waikanae'
 	}],
@@ -139,7 +139,7 @@ var roads =
 		'Proposed': '60',
 		'Rationale': 'While this road includes some straight sections the straights are interrupted by bends in the road, which has narrow shoulders, and is popular for cyclists, pedestrians and is used to access tramping tracks, including the Kapakapanui and Te Araroa walkway. 100km/h is considered inappropriate and most traffic travels well below 100 km/h. The proposed 60 km/h is considered by the NZTA to best reflect the road environment and use..',
 		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map6-reikorangi.gif',
-		'ImageBlurb': '"100" section of <strong>Reikorangi Road</strong> and <strong>Akatarawa Road</strong> and full length of <strong>Ngatiawa Road</strong>, <strong>Mangaone South Road</strong>, <strong>Kents Road</strong>, <strong>Rangiora Road</strong> and <strong>Terrace Road</strong>.',
+		'ImageBlurb': 'For the 100km/h section of <strong>Reikorangi Road</strong> from 580m south <strong>Poneke Drive</strong> to  <strong>Akatarawa Road</strong>',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map6-reikorangi.pdf',
 		'PdfName': 'Map 6: Reikorangi, Waikanae'
 	}],
