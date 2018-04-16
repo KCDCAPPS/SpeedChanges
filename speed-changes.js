@@ -4,6 +4,7 @@ var domain = ((environmentProd)? 'http://www.kapiticoast.govt.nz/' : 'http://uat
 var roads = 
 {
 	'Paekākāriki Hill Road': [{
+		'Road': 'Paekākāriki Hill Road',
 		'FromTo': 'from SH1 to the Council boundary at the lookout (3.3 km long).',
 		'Current': '70',
 		'Proposed': '60',
@@ -14,6 +15,7 @@ var roads =
 		'PdfName': 'Map 1: Paekākāriki Hill Road and SH1'
 	}],
 	'SH1 at Paekākāriki': [{
+		'Road': 'SH1 at Paekākāriki',
 		'FromTo': 'the current 70 km/h section (includes the intersection with Beach Road and Paekākāriki Hill Road)',
 		'Current': '70',
 		'Proposed': '60',
@@ -24,6 +26,7 @@ var roads =
 		'PdfName': 'Map 1: Paekākāriki Hill Road and SH1'
 	}],
 	'Maungakotukutuku Road': [{
+		'Road': 'Maungakotukutuku Road',
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
@@ -34,6 +37,7 @@ var roads =
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
 	'Valley Road - 1st Section': [{
+		'Road': 'Valley Road - 1st Section',
 		'FromTo': 'for the 100 km/h section from Waterfall Road to 221 Valley Road (1km long – including 635m to the north of Maungakotukutuku Road and 365m to the south).',
 		'Current': '100',
 		'Proposed': '60',
@@ -44,6 +48,7 @@ var roads =
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
 	'Valley Road - 2nd Section': [{
+		'Road': 'Valley Road - 2nd Section',
 		'FromTo': 'for the 70 km/h section of Valley Road. From Kapiti Golf Course at 104 Valley Road to the Palm Grove Christian Holiday Camp at 221 Valley Road.',
 		'Current': '70',
 		'Proposed': '60',
@@ -54,6 +59,7 @@ var roads =
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
 	'Poplar Avenue - Option 1': [{
+		'Road': 'Poplar Avenue - Option 1',
 		'FromTo': 'for the section from 60m east of Matai Road to The Esplanade, extending 15m north into Renown Road',
 		'Current': '50',
 		'Proposed': '40',
@@ -64,6 +70,7 @@ var roads =
 		'PdfName': 'Map 3: Poplar Avenue, Raumati South - Option 1'
 	}],
 	'Poplar Avenue - Option 2': [{
+		'Road': 'Poplar Avenue - Option 2',
 		'FromTo': 'As per option 1 but with 30 km/h through the shops: <br /> • 40 km/h (for 340m) from 60m east Matai Road to 35m east Tennis Court Road/ outside 45 Poplar Ave) <br /> • 30 km/h (for 205m) from 35m east of Tennis Court Road to 45m south of Renown Road outside 23 Poplar Ave, extending 15m north into Renown Road (Raumati South shopping area) <br /> • 40 km/h (for 205m) from 23 Poplar Ave to The Esplanade',
 		'Current': '50',
 		'Proposed': '40 km/h and 30',
@@ -74,6 +81,7 @@ var roads =
 		'PdfName': 'Map 3: Poplar Avenue, Raumati South - Option 2'
 	}],
 	'Garden Road and Matatua Road extension': [{
+		'Road': 'Garden Road and Matatua Road extension',
 		'FromTo': 'for the section from Rosetta Road through Garden Road and around to Matatua Road',
 		'Current': '50',
 		'Proposed': '20',
@@ -84,6 +92,7 @@ var roads =
 		'PdfName': 'Map 4: Garden Road, Raumati Beach'
 	}],
 	'Nikau Palm Road': [{
+		'Road': 'Nikau Palm Road',
 		'FromTo': 'for the 80 km/h section of Nikau Palm Road from 57m east of Te Topi Road to Maui Pomare Road',
 		'Current': '80',
 		'Proposed': '60',
@@ -94,6 +103,7 @@ var roads =
 		'PdfName': 'Map 5: Nikau Valley, Paraparaumu'
 	}],
 	'Maui Pomare, Mahaki, Anlaby Roads and Angus and Eucalyptus Way': [{
+		'Road': 'Maui Pomare, Mahaki, Anlaby Roads and Angus and Eucalyptus Way',
 		'FromTo': 'Full length',
 		'Current': '70',
 		'Proposed': '60',
@@ -104,6 +114,7 @@ var roads =
 		'PdfName': 'Map 5: Nikau Valley, Paraparaumu'
 	}],
 	'Ngatiawa Road, Mangaone South Road, Kents Road, Rangiora Road and Terrace Road': [{
+		'Road': 'Ngatiawa Road, Mangaone South Road, Kents Road, Rangiora Road and Terrace Road',
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
@@ -114,6 +125,7 @@ var roads =
 		'PdfName': 'Map 6: Reikorangi, Waikanae'
 	}],
 	'Akatarawa Road': [{
+		'Road': 'Akatarawa Road',
 		'FromTo': 'for the 100 km/h section of Akatarawa Road from Reikorangi Road to the  ‘50’ km/h signs at 147 Akatarawa Road (100m south of Ratadale Road)',
 		'Current': '100',
 		'Proposed': '60',
@@ -124,6 +136,7 @@ var roads =
 		'PdfName': 'Map 6: Reikorangi, Waikanae'
 	}],
 	'Reikorangi Road 70km section': [{
+		'Road': 'Reikorangi Road 70km section',
 		'FromTo': 'for the 70 km/h section from 90m south Poneke Drive to 580m south Poneke Drive',
 		'Current': '70',
 		'Proposed': '60',
@@ -134,6 +147,7 @@ var roads =
 		'PdfName': 'Map 6: Reikorangi, Waikanae'
 	}],
 	'Reikorangi Road 100km section': [{
+		'Road': 'Reikorangi Road 100km section',
 		'FromTo': 'for the 100 km/h section of Reikorangi Road from 580m south Poneke Drive to Akatarawa Road',
 		'Current': '100',
 		'Proposed': '60',
@@ -144,6 +158,7 @@ var roads =
 		'PdfName': 'Map 6: Reikorangi, Waikanae'
 	}],
 	'Jacks Bush Road': [{
+		'Road': 'Jacks Bush Road',
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
@@ -154,6 +169,7 @@ var roads =
 		'PdfName': 'Map 7: Ngarara Road, Jacks Bush Road and Smithfield Road'
 	}],
 	'Ngarara Road': [{
+		'Road': 'Ngarara Road',
 		'FromTo': 'for the 70 km/h section of Ngarara Road from Ferndale Drive north to the end',
 		'Current': '70',
 		'Proposed': '60',
@@ -164,6 +180,7 @@ var roads =
 		'PdfName': 'Map 7: Ngarara Road, Jacks Bush Road and Smithfield Road'
 	}],
 	'Smithfield Road': [{
+		'Road': 'Smithfield Road',
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
@@ -174,6 +191,7 @@ var roads =
 		'PdfName': 'Map 7: Ngarara Road, Jacks Bush Road and Smithfield Road'
 	}],
 	'Hadfield and Octavius Roads; Te Kowhai and Gary Roads': [{
+		'Road': 'Hadfield and Octavius Roads; Te Kowhai and Gary Roads',
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
@@ -184,6 +202,7 @@ var roads =
 		'PdfName': 'Map 8: Peka Peka'
 	}],
 	'Gear Road': [{
+		'Road': 'Gear Road',
 		'FromTo': 'for the section of Gear Road from 90m west of Settlement Road to the end of Gear Road',
 		'Current': '80',
 		'Proposed': '60',
@@ -194,6 +213,7 @@ var roads =
 		'PdfName': 'Map 9: Te Horo'
 	}],
 	'Settlement, Sutton and Best Roads': [{
+		'Road': 'Settlement, Sutton and Best Roads',
 		'FromTo': 'Full length',
 		'Current': '80',
 		'Proposed': '60',
@@ -204,6 +224,7 @@ var roads =
 		'PdfName': 'Map 9: Te Horo'
 	}],
 	'Waitohu Valley Road 80km section': [{
+		'Road': 'Waitohu Valley Road 80km section',
 		'FromTo': 'for the 80 km/h section of Waitohu Valley Road from number 77 to 277 Waitohu Valley Road',
 		'Current': '80',
 		'Proposed': '60',
@@ -214,6 +235,7 @@ var roads =
 		'PdfName': 'Map 10: Ōtaki'
 	}],
 	'Waitohu Valley Road 100km section': [{
+		'Road': 'Waitohu Valley Road 100km section',
 		'FromTo': 'for the 100 km/h section of Waitohu Valley Road from number 277 Waitohu Valley Road to the Council boundary',
 		'Current': '100',
 		'Proposed': '60',
@@ -224,6 +246,7 @@ var roads =
 		'PdfName': 'Map 10: Ōtaki'
 	}],
 	'Greenwood Boulevard, Sunglo Terrace': [{
+		'Road': 'Greenwood Boulevard, Sunglo Terrace',
 		'FromTo': 'Full length',
 		'Current': '80',
 		'Proposed': '60',
@@ -234,6 +257,7 @@ var roads =
 		'PdfName': 'Map 10: Ōtaki'
 	}],
 	'Ringawhati Road': [{
+		'Road': 'Ringawhati Road',
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
@@ -244,6 +268,7 @@ var roads =
 		'PdfName': 'Map 10: Ōtaki'
 	}],
 	'Rahui Road': [{
+		'Road': 'Rahui Road',
 		'FromTo': 'for the 100 km/h section of Rahui Road from 186 Rahui Road east to the end of Rahui Road',
 		'Current': '100',
 		'Proposed': '60',
@@ -255,7 +280,7 @@ var roads =
 	}]
 };
 
-function addNewRoad(road, attributes, count){
+function addNewRoad(title, attributes, count){
 	//Allow an external site to be added, so we will need to check to see if the URL contains a https or www as all internal links exclude this and all external ones requires either of these and can contain both.
 	//Remember -1 means not found. This allows us to easily change between production and uat with allowing for externally linked pages such as the QE2 park link which goes to a central government page
 	
@@ -263,20 +288,20 @@ function addNewRoad(road, attributes, count){
 		'<div class="panel panel-default">',
 			'<div class="panel-heading ' + ((count == 0) ? '' : 'collapsed') + '" data-toggle="collapse" data-parent="#accordion" data-target="#collapse' + count + '" >',
 				'<h4 class="panel-title">',
-					'<a class="accordion-toggle">' + road + '</a>',
+					'<a class="accordion-toggle">' + title + '</a>',
 				'</h4>',
 			'</div>',
 			'<div id="collapse' + count + '" class="panel-collapse collapse ' + ((count == 0) ? 'in' : '') + '">',
 				'<div class="panel-body">',
 					'<div>',
-						'<p><strong>Road name: </strong>' + road + '</p>',
+						'<p><strong>Road name: </strong>' + attributes['Road'] + '</p>',
 						'<p><strong>From/to: </strong>' + attributes['FromTo'] +  '</p>',
 						'<p><strong>Current speed:</strong> ' + attributes['Current'] + ' km/h</p>',
 						'<p><strong>Proposed speed:</strong> ' + attributes['Proposed'] + ' km/h</p>', 
 						'<p><strong>Why a change is proposed: </strong>' + attributes['Rationale'] + '</p>',
 						'<p><strong>Road Map:</strong></p>',
 						'<div class=>',
-							'<img class="img-responsive" alt="' + road + '" src="' + attributes['ImageUrl'] + '" title="' + road + '" style="margin: 0 auto; padding: 3px; border: 1px solid #ddd; border-radius: 3px; transition: all 0.2s ease-in-out; width: 85%; height: 85%;" >',
+							'<img class="img-responsive" alt="' + title + '" src="' + attributes['ImageUrl'] + '" title="' + title + '" style="margin: 0 auto; padding: 3px; border: 1px solid #ddd; border-radius: 3px; transition: all 0.2s ease-in-out; width: 85%; height: 85%;" >',
 						'</p>',
 						'<p style="text-align:center">' + attributes['ImageBlurb'] + '</p>',
 						'<br>',
