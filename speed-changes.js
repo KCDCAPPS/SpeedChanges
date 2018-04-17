@@ -180,7 +180,7 @@ var roads =
 		'PdfName': 'Map 7: Ngarara Road, Jacks Bush Road and Smithfield Road'
 	}],
 	'Smithfield Road': [{
-		'Road': 'Smithfield Road,  Ngarara Road to end (400m long) ',
+		'Road': 'Smithfield Road,  Ngarara Road to end (400m long)',
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
@@ -202,7 +202,7 @@ var roads =
 		'PdfName': 'Map 8: Peka Peka'
 	}],
 	'Gear Road': [{
-		'Road': 'Gear Road (1.3m long)',
+		'Road': 'Gear Road (540m long)',
 		'FromTo': 'for the section of Gear Road from 90m west of Settlement Road to the end of Gear Road',
 		'Current': '80',
 		'Proposed': '60',
