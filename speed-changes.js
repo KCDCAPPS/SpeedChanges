@@ -4,7 +4,7 @@ var domain = ((environmentProd)? 'http://www.kapiticoast.govt.nz/' : 'http://uat
 var roads = 
 {
 	'Paekākāriki Hill Road': [{
-		'Road': 'Paekākāriki Hill Road',
+		'Road': 'Paekākāriki Hill Road (3.3km long)',
 		'FromTo': 'from SH1 to the Council boundary at the lookout (3.3 km long).',
 		'Current': '70',
 		'Proposed': '60',
@@ -15,7 +15,7 @@ var roads =
 		'PdfName': 'Map 1: Paekākāriki Hill Road and SH1'
 	}],
 	'SH1 at Paekākāriki': [{
-		'Road': 'SH1 at Paekākāriki',
+		'Road': 'SH1 at Paekākāriki (approximately 850m long)',
 		'FromTo': 'the current 70 km/h section (includes the intersection with Beach Road and Paekākāriki Hill Road)',
 		'Current': '70',
 		'Proposed': '60',
@@ -26,7 +26,7 @@ var roads =
 		'PdfName': 'Map 1: Paekākāriki Hill Road and SH1'
 	}],
 	'Maungakotukutuku Road': [{
-		'Road': 'Maungakotukutuku Road',
+		'Road': 'Maungakotukutuku Road (6.5 km long including 3.7km gravel road)',
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
@@ -37,7 +37,7 @@ var roads =
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
 	'Valley Road - 1st Section': [{
-		'Road': 'Valley Road - 1st Section',
+		'Road': 'Valley Road : 1st section',
 		'FromTo': 'for the 100 km/h section from Waterfall Road to 221 Valley Road (1km long – including 635m to the north of Maungakotukutuku Road and 365m to the south).',
 		'Current': '100',
 		'Proposed': '60',
@@ -48,7 +48,7 @@ var roads =
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
 	'Valley Road - 2nd Section': [{
-		'Road': 'Valley Road - 2nd Section',
+		'Road': 'Valley Road : 2nd section (1.3 km long)',
 		'FromTo': 'for the 70 km/h section of Valley Road. From Kapiti Golf Course at 104 Valley Road to the Palm Grove Christian Holiday Camp at 221 Valley Road.',
 		'Current': '70',
 		'Proposed': '60',
@@ -59,7 +59,7 @@ var roads =
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
 	'Poplar Avenue - Option 1': [{
-		'Road': 'Poplar Avenue - Option 1',
+		'Road': 'Poplar Avenue (750m long)',
 		'FromTo': 'for the section from 60m east of Matai Road to The Esplanade, extending 15m north into Renown Road',
 		'Current': '50',
 		'Proposed': '40',
@@ -70,7 +70,7 @@ var roads =
 		'PdfName': 'Map 3: Poplar Avenue, Raumati South - Option 1'
 	}],
 	'Poplar Avenue - Option 2': [{
-		'Road': 'Poplar Avenue - Option 2',
+		'Road': 'Poplar Avenue',
 		'FromTo': 'As per option 1 but with 30 km/h through the shops: <br /> • 40 km/h (for 340m) from 60m east Matai Road to 35m east Tennis Court Road/ outside 45 Poplar Ave) <br /> • 30 km/h (for 205m) from 35m east of Tennis Court Road to 45m south of Renown Road outside 23 Poplar Ave, extending 15m north into Renown Road (Raumati South shopping area) <br /> • 40 km/h (for 205m) from 23 Poplar Ave to The Esplanade',
 		'Current': '50',
 		'Proposed': '40 km/h and 30',
@@ -81,7 +81,7 @@ var roads =
 		'PdfName': 'Map 3: Poplar Avenue, Raumati South - Option 2'
 	}],
 	'Garden Road and Matatua Road extension': [{
-		'Road': 'Garden Road and Matatua Road extension',
+		'Road': 'Garden Road (440m long)',
 		'FromTo': 'for the section from Rosetta Road through Garden Road and around to Matatua Road',
 		'Current': '50',
 		'Proposed': '20',
@@ -92,7 +92,7 @@ var roads =
 		'PdfName': 'Map 4: Garden Road, Raumati Beach'
 	}],
 	'Nikau Palm Road': [{
-		'Road': 'Nikau Palm Road',
+		'Road': 'Nikau Palm Road (1km long)',
 		'FromTo': 'for the 80 km/h section of Nikau Palm Road from 57m east of Te Topi Road to Maui Pomare Road',
 		'Current': '80',
 		'Proposed': '60',
@@ -103,7 +103,7 @@ var roads =
 		'PdfName': 'Map 5: Nikau Valley, Paraparaumu'
 	}],
 	'Maui Pomare, Mahaki, Anlaby Roads and Angus and Eucalyptus Way': [{
-		'Road': 'Maui Pomare, Mahaki, Anlaby Roads and Angus and Eucalyptus Way',
+		'Road': 'Maui Pomare Road (1.3km), Mahaki Road (0.6km), Anlaby Road (1.7km), Angus Way (300m), Eucalyptus Way (300m)',
 		'FromTo': 'Full length',
 		'Current': '70',
 		'Proposed': '60',
@@ -114,7 +114,7 @@ var roads =
 		'PdfName': 'Map 5: Nikau Valley, Paraparaumu'
 	}],
 	'Ngatiawa Road, Mangaone South Road, Kents Road, Rangiora Road and Terrace Road': [{
-		'Road': 'Ngatiawa Road, Mangaone South Road, Kents Road, Rangiora Road and Terrace Road',
+		'Road': 'Ngatiawa Road (4km) , Mangaone South Road (5.3km), Kents Road (800m), Rangiora Road (2.1km), Terrace Road (1.4km)',
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
@@ -125,7 +125,7 @@ var roads =
 		'PdfName': 'Map 6: Reikorangi, Waikanae'
 	}],
 	'Akatarawa Road': [{
-		'Road': 'Akatarawa Road',
+		'Road': 'Akatarawa Road (3.6km long)',
 		'FromTo': 'for the 100 km/h section of Akatarawa Road from Reikorangi Road to the  ‘50’ km/h signs at 147 Akatarawa Road (100m south of Ratadale Road)',
 		'Current': '100',
 		'Proposed': '60',
@@ -136,7 +136,7 @@ var roads =
 		'PdfName': 'Map 6: Reikorangi, Waikanae'
 	}],
 	'Reikorangi Road 70km section': [{
-		'Road': 'Reikorangi Road 70km section',
+		'Road': 'Reikorangi Road (485m long)',
 		'FromTo': 'for the 70 km/h section from 90m south Poneke Drive to 580m south Poneke Drive',
 		'Current': '70',
 		'Proposed': '60',
@@ -147,7 +147,7 @@ var roads =
 		'PdfName': 'Map 6: Reikorangi, Waikanae'
 	}],
 	'Reikorangi Road 100km section': [{
-		'Road': 'Reikorangi Road 100km section',
+		'Road': 'Reikorangi Road (1.7km long)',
 		'FromTo': 'for the 100 km/h section of Reikorangi Road from 580m south Poneke Drive to Akatarawa Road',
 		'Current': '100',
 		'Proposed': '60',
@@ -158,7 +158,7 @@ var roads =
 		'PdfName': 'Map 6: Reikorangi, Waikanae'
 	}],
 	'Jacks Bush Road': [{
-		'Road': 'Jacks Bush Road',
+		'Road': 'Jacks Bush Road (300m long)',
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
@@ -169,7 +169,7 @@ var roads =
 		'PdfName': 'Map 7: Ngarara Road, Jacks Bush Road and Smithfield Road'
 	}],
 	'Ngarara Road': [{
-		'Road': 'Ngarara Road',
+		'Road': 'Ngarara Road (2.8km long)',
 		'FromTo': 'for the 70 km/h section of Ngarara Road from Ferndale Drive north to the end',
 		'Current': '70',
 		'Proposed': '60',
@@ -180,7 +180,7 @@ var roads =
 		'PdfName': 'Map 7: Ngarara Road, Jacks Bush Road and Smithfield Road'
 	}],
 	'Smithfield Road': [{
-		'Road': 'Smithfield Road',
+		'Road': 'Smithfield Road,  Ngarara Road to end (400m long) ',
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
@@ -191,7 +191,7 @@ var roads =
 		'PdfName': 'Map 7: Ngarara Road, Jacks Bush Road and Smithfield Road'
 	}],
 	'Hadfield and Octavius Roads; Te Kowhai and Gary Roads': [{
-		'Road': 'Hadfield and Octavius Roads; Te Kowhai and Gary Roads',
+		'Road': 'Hadfield Road (810m), Octavius Road (420m), Te Kowhai Road (370m), Gary Road (890m)',
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
@@ -202,7 +202,7 @@ var roads =
 		'PdfName': 'Map 8: Peka Peka'
 	}],
 	'Gear Road': [{
-		'Road': 'Gear Road',
+		'Road': 'Gear Road (1.3m long)',
 		'FromTo': 'for the section of Gear Road from 90m west of Settlement Road to the end of Gear Road',
 		'Current': '80',
 		'Proposed': '60',
@@ -213,7 +213,7 @@ var roads =
 		'PdfName': 'Map 9: Te Horo'
 	}],
 	'Settlement, Sutton and Best Roads': [{
-		'Road': 'Settlement, Sutton and Best Roads',
+		'Road': 'Settlement Road (1.6 km), Sutton Road (350m), Best Road (370m)',
 		'FromTo': 'Full length',
 		'Current': '80',
 		'Proposed': '60',
@@ -224,7 +224,7 @@ var roads =
 		'PdfName': 'Map 9: Te Horo'
 	}],
 	'Waitohu Valley Road 80km section': [{
-		'Road': 'Waitohu Valley Road 80km section',
+		'Road': 'Waitohu Valley Road (2km long)',
 		'FromTo': 'for the 80 km/h section of Waitohu Valley Road from number 77 to 277 Waitohu Valley Road',
 		'Current': '80',
 		'Proposed': '60',
@@ -235,7 +235,7 @@ var roads =
 		'PdfName': 'Map 10: Ōtaki'
 	}],
 	'Waitohu Valley Road 100km section': [{
-		'Road': 'Waitohu Valley Road 100km section',
+		'Road': 'Waitohu Valley Road (740m long)',
 		'FromTo': 'for the 100 km/h section of Waitohu Valley Road from number 277 Waitohu Valley Road to the Council boundary',
 		'Current': '100',
 		'Proposed': '60',
@@ -246,7 +246,7 @@ var roads =
 		'PdfName': 'Map 10: Ōtaki'
 	}],
 	'Greenwood Boulevard, Sunglo Terrace': [{
-		'Road': 'Greenwood Boulevard, Sunglo Terrace',
+		'Road': 'Greenwood Boulevard (1.2 km), Sunglo Terrace (600m)',
 		'FromTo': 'Full length',
 		'Current': '80',
 		'Proposed': '60',
@@ -257,7 +257,7 @@ var roads =
 		'PdfName': 'Map 10: Ōtaki'
 	}],
 	'Ringawhati Road': [{
-		'Road': 'Ringawhati Road',
+		'Road': 'Ringawhati Road (1.8 km long)',
 		'FromTo': 'Full length',
 		'Current': '100',
 		'Proposed': '60',
@@ -268,7 +268,7 @@ var roads =
 		'PdfName': 'Map 10: Ōtaki'
 	}],
 	'Rahui Road': [{
-		'Road': 'Rahui Road',
+		'Road': 'Rahui Road (13.4 km), Waimanu Road (500m)',
 		'FromTo': 'for the 100 km/h section of Rahui Road from 186 Rahui Road east to the end of Rahui Road',
 		'Current': '100',
 		'Proposed': '60',
