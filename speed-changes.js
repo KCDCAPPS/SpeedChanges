@@ -58,7 +58,7 @@ var roads =
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map2-maungakotukutuku-valley-road.pdf',
 		'PdfName': 'Map 2: Maungakotukutuku Road and Valley Road'
 	}],
-	'Poplar Avenue - Option 1': [{
+	'Poplar Avenue': [{
 		'Road': 'Poplar Avenue (750m long)',
 		'FromTo': 'for the section from 60m east of Matai Road to The Esplanade, extending 15m north into Renown Road',
 		'Current': '50',
@@ -69,7 +69,7 @@ var roads =
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map3-poplar-ave-option1.pdf',
 		'PdfName': 'Map 3: Poplar Avenue, Raumati South - Option 1'
 	}],
-	'Poplar Avenue - Option 2': [{
+	/*'Poplar Avenue - Option 2': [{
 		'Road': 'Poplar Avenue',
 		'FromTo': 'As per option 1 but with 30 km/h through the shops: <br /> • 40 km/h (for 340m) from 60m east Matai Road to 35m east Tennis Court Road/ outside 45 Poplar Ave) <br /> • 30 km/h (for 205m) from 35m east of Tennis Court Road to 45m south of Renown Road outside 23 Poplar Ave, extending 15m north into Renown Road (Raumati South shopping area) <br /> • 40 km/h (for 205m) from 23 Poplar Ave to The Esplanade',
 		'Current': '50',
@@ -79,7 +79,7 @@ var roads =
 		'ImageBlurb': '60m east <strong>Matai Road</strong> to 35m east of <strong>Tennis Court Road</strong>, 35m east of <strong>Tennis Court Road</strong> (outside 45 Poplar Avenue) to 45m south of <strong>Renown Road</strong> (outside 23 Poplar Avenue) extending 15m north into <strong>Renown Road</strong>. and 45m south of <strong>Renown Road</strong> to <strong>The Esplanade</strong>.',
 		'PdfUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/pdf/map3-poplar-ave-option2.pdf',
 		'PdfName': 'Map 3: Poplar Avenue, Raumati South - Option 2'
-	}],
+	}],*/
 	'Garden Road and Matatua Road extension': [{
 		'Road': 'Garden Road (440m long)',
 		'FromTo': 'for the section from Rosetta Road through Garden Road and around to Matatua Road',
