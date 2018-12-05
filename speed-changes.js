@@ -1,4 +1,5 @@
 var environmentProd = true;
+var test = "":
 var domain = ((environmentProd)? 'http://www.kapiticoast.govt.nz/' : 'http://uat.kapiticoast.govt.nz.testwin.gdmedia.tv/');
 
 var roads = 
