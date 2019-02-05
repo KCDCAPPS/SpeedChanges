@@ -1,4 +1,5 @@
-var domain = ''
+var environmentProd = true;
+var domain = ((environmentProd)? '/globalassets/your-council/projects/kapiti-speed-limits-review-stage-2/' : 'assets/')
 
 var allRoads = 
 {
@@ -9,9 +10,9 @@ var allRoads =
 			'Current': '50',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map1-paekakariki-village-centre.gif',
+			'ImageUrl': domain + 'images/map1-paekakariki-village-centre.gif',
 			'ImageBlurb': '<strong>Beach Road</strong>(full length).',
-			'PdfUrl': domain + 'assets/pdfs/map1-paekakariki-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map1-paekakariki-village-centre.pdf',
 			'PdfName': 'Map 1: Paekākāriki Village Centre'
 		}],
 		'PAEKĀKĀRIKI VILLAGE CENTRE - Ames Street': [{
@@ -20,9 +21,9 @@ var allRoads =
 			'Current': '50',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map1-paekakariki-village-centre.gif',
+			'ImageUrl': domain + 'images/map1-paekakariki-village-centre.gif',
 			'ImageBlurb': '<strong>Ames Street</strong> from Beach Road to 5 Ames Street.',
-			'PdfUrl': domain + 'assets/pdfs/map1-paekakariki-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map1-paekakariki-village-centre.pdf',
 			'PdfName': 'Map 1: Paekākāriki Village Centre'
 		}],
 		'PAEKĀKĀRIKI VILLAGE CENTRE - The Parade': [{
@@ -30,10 +31,10 @@ var allRoads =
 			'FromTo': 'From Beach Road to north end of 3 The Parade (37m)',
 			'Current': '50',
 			'Proposed': '30',
-			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map1-paekakariki-hill.gif',
-			'ImageUrl': domain + 'assets/images/map1-paekakariki-village-centre.gif',
+			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',		
+			'ImageUrl': domain + 'images/map1-paekakariki-village-centre.gif',
 			'ImageBlurb': '<strong>The Parade</strong> from Beach Road to north end of 3 The Parade.',
-			'PdfUrl': domain + 'assets/pdfs/map1-paekakariki-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map1-paekakariki-village-centre.pdf',
 			'PdfName': 'Map 1: Paekākāriki Village Centre'
 		}],
 		'PAEKĀKĀRIKI VILLAGE CENTRE - Wellington Road': [{
@@ -41,10 +42,10 @@ var allRoads =
 			'FromTo': 'From Beach Road north to 11 Wellington Road (91m)',
 			'Current': '50',
 			'Proposed': '30',
-			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',		'ImageUrl': domain + 'globalassets/your-council/projects/kapiti-speed-limits-review/images/map1-paekakariki-hill.gif',
-			'ImageUrl': domain + 'assets/images/map1-paekakariki-village-centre.gif',
+			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',		
+			'ImageUrl': domain + 'images/map1-paekakariki-village-centre.gif',
 			'ImageBlurb': '<strong>Wellington Road</strong> from Beach Road north to 11 Wellington Road.',
-			'PdfUrl': domain + 'assets/pdfs/map1-paekakariki-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map1-paekakariki-village-centre.pdf',
 			'PdfName': 'Map 1: Paekākāriki Village Centre'
 		}],
 		'RAUMATI SOUTH VILLAGE CENTRE - Poplar Avenue': [{
@@ -53,9 +54,9 @@ var allRoads =
 			'Current': '40',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map2-raumati-south-village-centre.gif',
+			'ImageUrl': domain + 'images/map2-raumati-south-village-centre.gif',
 			'ImageBlurb': '<strong>Poplar Avenue</strong> from 23 Poplar Avenue to 45 Poplar Avenue.',
-			'PdfUrl': domain + 'assets/pdfs/map2-raumati-south-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map2-raumati-south-village-centre.pdf',
 			'PdfName': 'Map 2: Raumati South Village Centre'
 		}],
 		'RAUMATI SOUTH VILLAGE CENTRE - Renown Road': [{
@@ -64,9 +65,9 @@ var allRoads =
 			'Current': '40',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map2-raumati-south-village-centre.gif',
+			'ImageUrl': domain + 'images/map2-raumati-south-village-centre.gif',
 			'ImageBlurb': '<strong>Renown Road</strong> from Poplar Avenue to 3 Renown Road.',
-			'PdfUrl': domain + 'assets/pdfs/map2-raumati-south-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map2-raumati-south-village-centre.pdf',
 			'PdfName': 'Map 2: Raumati South Village Centre'
 		}],
 		'RAUMATI SOUTH VILLAGE CENTRE - Glen Road' : [{
@@ -75,9 +76,9 @@ var allRoads =
 			'Current': '40',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map2-raumati-south-village-centre.gif',
+			'ImageUrl': domain + 'images/map2-raumati-south-village-centre.gif',
 			'ImageBlurb': '<strong>Glen Road</strong> from Poplar Avenue to 5 Glen Road.',
-			'PdfUrl': domain + 'assets/pdfs/map2-raumati-south-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map2-raumati-south-village-centre.pdf',
 			'PdfName': 'Map 2: Raumati South Village Centre'
 		}],
 		'RAUMATI SOUTH VILLAGE CENTRE - Tennis Court Road' : [{
@@ -86,9 +87,9 @@ var allRoads =
 			'Current': '40',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map2-raumati-south-village-centre.gif',
+			'ImageUrl': domain + 'images/map2-raumati-south-village-centre.gif',
 			'ImageBlurb': '<strong>Tennis Court Road</strong> from Poplar Avenue to 2 Tennis Court Road.',
-			'PdfUrl': domain + 'assets/pdfs/map2-raumati-south-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map2-raumati-south-village-centre.pdf',
 			'PdfName': 'Map 2: Raumati South Village Centre'
 		}]		
 	},
@@ -99,9 +100,9 @@ var allRoads =
 			'Current': '50',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map3-raumati-beach-village-centre.gif',
+			'ImageUrl': domain + 'images/map3-raumati-beach-village-centre.gif',
 			'ImageBlurb': '<strong>Raumati Road</strong> from Matatua Road to 23 Raumati Road.',
-			'PdfUrl': domain + 'assets/pdfs/map3-raumati-beach-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map3-raumati-beach-village-centre.pdf',
 			'PdfName': 'Map 3: Raumati Beach Village Centre'
 		}],
 		'RAUMATI BEACH VILLAGE - Margaret Road': [{
@@ -110,9 +111,9 @@ var allRoads =
 			'Current': '50',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map3-raumati-beach-village-centre.gif',
+			'ImageUrl': domain + 'images/map3-raumati-beach-village-centre.gif',
 			'ImageBlurb': '<strong>Margaret Road</strong> from Raumati Road to 30 Margaret Road.',
-			'PdfUrl': domain + 'assets/pdfs/map3-raumati-beach-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map3-raumati-beach-village-centre.pdf',
 			'PdfName': 'Map 3: Raumati Beach Village Centre'
 		}],
 		'RAUMATI BEACH VILLAGE - Victor Road': [{
@@ -121,9 +122,9 @@ var allRoads =
 			'Current': '50',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map3-raumati-beach-village-centre.gif',
+			'ImageUrl': domain + 'images/map3-raumati-beach-village-centre.gif',
 			'ImageBlurb': '<strong>Victor Road<strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map3-raumati-beach-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map3-raumati-beach-village-centre.pdf',
 			'PdfName': 'Map 3: Raumati Beach Village Centre'
 		}],
 		'RAUMATI BEACH VILLAGE - Rosetta Road': [{
@@ -132,9 +133,9 @@ var allRoads =
 			'Current': '50',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map3-raumati-beach-village-centre.gif',
+			'ImageUrl': domain + 'images/map3-raumati-beach-village-centre.gif',
 			'ImageBlurb': '<strong>Rosetta Road</strong> from 351 Rosetta Road to Raumati Road.',
-			'PdfUrl': domain + 'assets/pdfs/map3-raumati-beach-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map3-raumati-beach-village-centre.pdf',
 			'PdfName': 'Map 3: Raumati Beach Village Centre'
 		}],
 		'RAUMATI BEACH VILLAGE - Alexander Road': [{
@@ -143,9 +144,9 @@ var allRoads =
 			'Current': '50',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map3-raumati-beach-village-centre.gif',
+			'ImageUrl': domain + 'images/map3-raumati-beach-village-centre.gif',
 			'ImageBlurb': '<strong>Alexander Road</strong> from Raumati Road to 8 Alexander Road.',
-			'PdfUrl': domain + 'assets/pdfs/map3-raumati-beach-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map3-raumati-beach-village-centre.pdf',
 			'PdfName': 'Map 3: Raumati Beach Village Centre'
 		}],
 		'RAUMATI BEACH VILLAGE - Kowhai Grove': [{
@@ -154,9 +155,9 @@ var allRoads =
 			'Current': '50',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map3-raumati-beach-village-centre.gif',
+			'ImageUrl': domain + 'images/map3-raumati-beach-village-centre.gif',
 			'ImageBlurb': '<strong>Kowhai Grove<strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map3-raumati-beach-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map3-raumati-beach-village-centre.pdf',
 			'PdfName': 'Map 3: Raumati Beach Village Centre'
 		}],
 		'RAUMATI BEACH VILLAGE - Matatua Road': [{
@@ -165,9 +166,9 @@ var allRoads =
 			'Current': '50',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map3-raumati-beach-village-centre.gif',
+			'ImageUrl': domain + 'images/map3-raumati-beach-village-centre.gif',
 			'ImageBlurb': '<strong>Matatua Road</strong> from Raumati Road to 10 Matatua Road.',
-			'PdfUrl': domain + 'assets/pdfs/map3-raumati-beach-village-centre.pdf',
+			'PdfUrl': domain + 'pdfs/map3-raumati-beach-village-centre.pdf',
 			'PdfName': 'Map 3: Raumati Beach Village Centre'
 		}],
 		'OTAIHANGA and RATANUI - Killalea Place': [{
@@ -176,9 +177,9 @@ var allRoads =
 			'Current': '70',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is consistent with the adjoining 60 km/h on Ratanui Road.',
-			'ImageUrl': domain + 'assets/images/map4-otaihanga.gif',
+			'ImageUrl': domain + 'images/map4-otaihanga.gif',
 			'ImageBlurb': '<strong>Killalea Place</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map4-otaihanga.pdf',
+			'PdfUrl': domain + 'pdfs/map4-otaihanga.pdf',
 			'PdfName': 'Map 4: Otaihanga'
 		}],
 		'OTAIHANGA and RATANUI - Greendale Drive': [{
@@ -187,9 +188,9 @@ var allRoads =
 			'Current': '70',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit in Greendale and King Arthur Drive and side roads (Lancelot Grove, Merlin Court, Sea Poppy Way and Grand Poppa Way) is consistent with the 60 km/h speed limit on the adjoining Otaihanga Road.',
-			'ImageUrl': domain + 'assets/images/map4-otaihanga.gif',
+			'ImageUrl': domain + 'images/map4-otaihanga.gif',
 			'ImageBlurb': '<strong>Greendale Drive</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map4-otaihanga.pdf',
+			'PdfUrl': domain + 'pdfs/map4-otaihanga.pdf',
 			'PdfName': 'Map 4: Otaihanga'
 		}],
 		'OTAIHANGA and RATANUI - King Arthur Drive':  [{
@@ -198,9 +199,9 @@ var allRoads =
 			'Current': '70',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit in Greendale and King Arthur Drive and side roads (Lancelot Grove, Merlin Court, Sea Poppy Way and Grand Poppa Way) is consistent with the 60 km/h speed limit on the adjoining Otaihanga Road.',
-			'ImageUrl': domain + 'assets/images/map4-otaihanga.gif',
+			'ImageUrl': domain + 'images/map4-otaihanga.gif',
 			'ImageBlurb': '<strong>King Arthur Drive</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map4-otaihanga.pdf',
+			'PdfUrl': domain + 'pdfs/map4-otaihanga.pdf',
 			'PdfName': 'Map 4: Otaihanga'
 		}],
 		'OTAIHANGA and RATANUI - Lancelot Grove':  [{
@@ -209,9 +210,9 @@ var allRoads =
 			'Current': '70',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit in Greendale and King Arthur Drive and side roads (Lancelot Grove, Merlin Court, Sea Poppy Way and Grand Poppa Way) is consistent with the 60 km/h speed limit on the adjoining Otaihanga Road.',
-			'ImageUrl': domain + 'assets/images/map4-otaihanga.gif',
+			'ImageUrl': domain + 'images/map4-otaihanga.gif',
 			'ImageBlurb': '<strong>Lancelot Grove</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map4-otaihanga.pdf',
+			'PdfUrl': domain + 'pdfs/map4-otaihanga.pdf',
 			'PdfName': 'Map 4: Otaihanga'
 		}],
 		'OTAIHANGA and RATANUI - Merlin Court':  [{
@@ -220,9 +221,9 @@ var allRoads =
 			'Current': '70',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit in Greendale and King Arthur Drive and side roads (Lancelot Grove, Merlin Court, Sea Poppy Way and Grand Poppa Way) is consistent with the 60 km/h speed limit on the adjoining Otaihanga Road.',
-			'ImageUrl': domain + 'assets/images/map4-otaihanga.gif',
+			'ImageUrl': domain + 'images/map4-otaihanga.gif',
 			'ImageBlurb': '<strong>Merlin Court</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map4-otaihanga.pdf',
+			'PdfUrl': domain + 'pdfs/map4-otaihanga.pdf',
 			'PdfName': 'Map 4: Otaihanga'
 		}],
 		'OTAIHANGA and RATANUI - Sea Poppy Way':  [{
@@ -231,9 +232,9 @@ var allRoads =
 			'Current': '70',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit in Greendale and King Arthur Drive and side roads (Lancelot Grove, Merlin Court, Sea Poppy Way and Grand Poppa Way) is consistent with the 60 km/h speed limit on the adjoining Otaihanga Road.',
-			'ImageUrl': domain + 'assets/images/map4-otaihanga.gif',
+			'ImageUrl': domain + 'images/map4-otaihanga.gif',
 			'ImageBlurb': '<strong>Sea Poppy Way</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map4-otaihanga.pdf',
+			'PdfUrl': domain + 'pdfs/map4-otaihanga.pdf',
 			'PdfName': 'Map 4: Otaihanga'
 		}],
 		'OTAIHANGA and RATANUI - Grand Poppa Way':  [{
@@ -242,9 +243,9 @@ var allRoads =
 			'Current': '70',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit in Greendale and King Arthur Drive and side roads (Lancelot Grove, Merlin Court, Sea Poppy Way and Grand Poppa Way) is consistent with the 60 km/h speed limit on the adjoining Otaihanga Road.',
-			'ImageUrl': domain + 'assets/images/map4-otaihanga.gif',
+			'ImageUrl': domain + 'images/map4-otaihanga.gif',
 			'ImageBlurb': '<strong>Grand Poppa Way</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map4-otaihanga.pdf',
+			'PdfUrl': domain + 'pdfs/map4-otaihanga.pdf',
 			'PdfName': 'Map 4: Otaihanga'
 		}]		
 	},
@@ -255,9 +256,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit best reflects the safety and use of these narrow windy no-exit roads, which provide access to rural residential properties.',
-			'ImageUrl': domain + 'assets/images/map5-kebbel-drive-and-aston-road-waikanae.gif',
+			'ImageUrl': domain + 'images/map5-kebbel-drive-and-aston-road-waikanae.gif',
 			'ImageBlurb': '<strong>Kebbell Drive</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map5-kebbel-drive-and-aston-road-waikanae.pdf',
+			'PdfUrl': domain + 'pdfs/map5-kebbel-drive-and-aston-road-waikanae.pdf',
 			'PdfName': 'Map 5: Kebbell Drive and Aston Road, Waikanae'
 		}],
 		'WAIKANAE - Aston Road': [{
@@ -266,9 +267,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit best reflects the safety and use of these narrow windy no-exit roads, which provide access to rural residential properties.',
-			'ImageUrl': domain + 'assets/images/map5-kebbel-drive-and-aston-road-waikanae.gif',
+			'ImageUrl': domain + 'images/map5-kebbel-drive-and-aston-road-waikanae.gif',
 			'ImageBlurb': '<strong>Aston Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map5-kebbel-drive-and-aston-road-waikanae.pdf',
+			'PdfUrl': domain + 'pdfs/map5-kebbel-drive-and-aston-road-waikanae.pdf',
 			'PdfName': 'Map 5: Kebbell Drive and Aston Road, Waikanae'
 		}],
 		'WAIKANAE - Huia Street': [{
@@ -277,9 +278,9 @@ var allRoads =
 			'Current': '70',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit best reflects the safety and use of these narrow windy no-exit roads, which provide access to rural residential properties.',
-			'ImageUrl': domain + 'assets/images/map6-huia-street-and-greenhill-road-waikanae.gif',
+			'ImageUrl': domain + 'images/map6-huia-street-and-greenhill-road-waikanae.gif',
 			'ImageBlurb': '<strong>Huia Street</strong> 70 km/h section from 91 Huia Street to end.',
-			'PdfUrl': domain + 'assets/images/map6-huia-street-and-greenhill-road-waikanae.pdf',
+			'PdfUrl': domain + 'pdfs/map6-huia-street-and-greenhill-road-waikanae.pdf',
 			'PdfName': 'Map 6: Huia Street and Greenhill Road, Waikanae'
 		}],
 		'WAIKANAE - Greenhill Road': [{
@@ -288,9 +289,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit best reflects the safety and use of these narrow windy no-exit roads, which provide access to rural residential properties.',
-			'ImageUrl': domain + 'assets/images/map6-huia-street-and-greenhill-road-waikanae.gif',
+			'ImageUrl': domain + 'images/map6-huia-street-and-greenhill-road-waikanae.gif',
 			'ImageBlurb': '<strong>Greenhill Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/images/map6-huia-street-and-greenhill-road-waikanae.pdf',
+			'PdfUrl': domain + 'pdfs/map6-huia-street-and-greenhill-road-waikanae.pdf',
 			'PdfName': 'Map 6: Huia Street and Greenhill Road, Waikanae'
 		}],
 		'PEKA PEKA EAST OF SH1 - Peka Peka Road' : [{
@@ -299,9 +300,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of this windy undulating road which provides access to rural properties, Kensington Drive, Harrisons Garden Centre, SH1, Paetawa, Waikanae, and the Expressway shared path. This section of road is popular with cyclists, walkers and equestrians, but has no separate facilities (path) or shoulder for them to travel off the road. The proposed speed limit is consistent with the speed traffic travels through this section of road.',
-			'ImageUrl': domain + 'assets/images/map7-peka-peka.gif',
+			'ImageUrl': domain + 'images/map7-peka-peka.gif',
 			'ImageBlurb': '<strong>Peka Peka Road</strong> from SH1 to 94 Peka Peka Road.',
-			'PdfUrl': domain + 'assets/pdfs/map7-peka-peka.pdf',
+			'PdfUrl': domain + 'pdfs/map7-peka-peka.pdf',
 			'PdfName': 'Map 7: Peka Peka'
 		}],
 		'PEKA PEKA EAST OF SH1 - Kensington Drive' : [{
@@ -310,9 +311,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit best reflects the safety and use of this no exit rural road.',
-			'ImageUrl': domain + 'assets/images/map7-peka-peka.gif',
+			'ImageUrl': domain + 'images/map7-peka-peka.gif',
 			'ImageBlurb': '<strong>Kensington Drive</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map7-peka-peka.pdf',
+			'PdfUrl': domain + 'pdfs/map7-peka-peka.pdf',
 			'PdfName': 'Map 7: Peka Peka'
 		}],
 		'PEKA PEKA EAST OF SH1 - Raukawa Road' : [{
@@ -321,9 +322,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit best reflects the safety and use of this no-exit road with rural lifestyle housing.',
-			'ImageUrl': domain + 'assets/images/map7-peka-peka.gif',
+			'ImageUrl': domain + 'images/map7-peka-peka.gif',
 			'ImageBlurb': '<strong>Raukawa Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map7-peka-peka.pdf',
+			'PdfUrl': domain + 'pdfs/map7-peka-peka.pdf',
 			'PdfName': 'Map 7: Peka Peka'
 		}],
 		'PEKA PEKA EAST OF SH1 - Pingao Lane' : [{
@@ -332,9 +333,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '50',
 			'Rationale': 'These short no exit roads are off Paetawa Road just north of Peka Peka Road, which has a 50 km/h speed limit. Both these short roads have a similar level of housing and layout to Paetawa Road and so should take on the same 50 km/h speed limit.',
-			'ImageUrl': domain + 'assets/images/map7-peka-peka.gif',
+			'ImageUrl': domain + 'images/map7-peka-peka.gif',
 			'ImageBlurb': '<strong>Pingao Lane</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map7-peka-peka.pdf',
+			'PdfUrl': domain + 'pdfs/map7-peka-peka.pdf',
 			'PdfName': 'Map 7: Peka Peka'
 		}],
 		'PEKA PEKA EAST OF SH1 - Pairuku Lane' : [{
@@ -343,9 +344,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '50',
 			'Rationale': 'These short no exit roads are off Paetawa Road just north of Peka Peka Road, which has a 50 km/h speed limit. Both these short roads have a similar level of housing and layout to Paetawa Road and so should take on the same 50 km/h speed limit.',
-			'ImageUrl': domain + 'assets/images/map7-peka-peka.gif',
+			'ImageUrl': domain + 'images/map7-peka-peka.gif',
 			'ImageBlurb': '<strong>Pairuku Lane</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map7-peka-peka.pdf',
+			'PdfUrl': domain + 'pdfs/map7-peka-peka.pdf',
 			'PdfName': 'Map 7: Peka Peka'
 		}]		
 	}, 
@@ -356,9 +357,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered to best reflect the safety and use of Te Hapua Road, which is a windy rural residential no-exit road',
-			'ImageUrl': domain + 'assets/images/map8-te-hapua-road-and-side-roads-te-horo.gif',
+			'ImageUrl': domain + 'images/map8-te-hapua-road-and-side-roads-te-horo.gif',
 			'ImageBlurb': '<strong>Te Hapua Road/strong> (full length)',
-			'PdfUrl': domain + 'assets/pdfs/map8-te-hapua-road-and-side-roads-te-horo.pdf',
+			'PdfUrl': domain + 'pdfs/map8-te-hapua-road-and-side-roads-te-horo.pdf',
 			'PdfName': 'Map 8: Te Hapua Road and side roads, Te Horo'
 		}],
 		'TE HAPUA ROAD AND SIDE ROADS - Derham Road' : [{
@@ -367,9 +368,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed for this windy undulating rural road.',
-			'ImageUrl': domain + 'assets/images/map8-te-hapua-road-and-side-roads-te-horo.gif',
+			'ImageUrl': domain + 'images/map8-te-hapua-road-and-side-roads-te-horo.gif',
 			'ImageBlurb': '<strong>Derham Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map8-te-hapua-road-and-side-roads-te-horo.pdf',
+			'PdfUrl': domain + 'pdfs/map8-te-hapua-road-and-side-roads-te-horo.pdf',
 			'PdfName': 'Map 8: Te Hapua Road and side roads, Te Horo'
 		}],
 		'TE HAPUA ROAD AND SIDE ROADS - Paul Faith Lane' : [{
@@ -378,9 +379,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for this no-exit rural road and is consistent with the 60 km/h speed limit proposed for the adjoining Derham Road.',
-			'ImageUrl': domain + 'assets/images/map8-te-hapua-road-and-side-roads-te-horo.gif',
+			'ImageUrl': domain + 'images/map8-te-hapua-road-and-side-roads-te-horo.gif',
 			'ImageBlurb': '<strong>Paul Faith Lane</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map8-te-hapua-road-and-side-roads-te-horo.pdf',
+			'PdfUrl': domain + 'pdfs/map8-te-hapua-road-and-side-roads-te-horo.pdf',
 			'PdfName': 'Map 8: Te Hapua Road and side roads, Te Horo'
 		}],
 		'TE HAPUA ROAD AND SIDE ROADS - Morrison Road' : [{
@@ -389,9 +390,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for this no-exit rural road and is consistent with the 60 km/h speed limit proposed for the adjoining Derham Road.',
-			'ImageUrl': domain + 'assets/images/map8-te-hapua-road-and-side-roads-te-horo.gif',
+			'ImageUrl': domain + 'images/map8-te-hapua-road-and-side-roads-te-horo.gif',
 			'ImageBlurb': '<strong>Morrison Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map8-te-hapua-road-and-side-roads-te-horo.pdf',
+			'PdfUrl': domain + 'pdfs/map8-te-hapua-road-and-side-roads-te-horo.pdf',
 			'PdfName': 'Map 8: Te Hapua Road and side roads, Te Horo'
 		}],
 		'TE HAPUA ROAD AND SIDE ROADS - Puruaha Road' : [{
@@ -400,9 +401,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for Purahau Road and adjoining short Mahurenga Lane, which both have rural residential development.',
-			'ImageUrl': domain + 'assets/images/map8-te-hapua-road-and-side-roads-te-horo.gif',
+			'ImageUrl': domain + 'images/map8-te-hapua-road-and-side-roads-te-horo.gif',
 			'ImageBlurb': '<strong>Puruaha Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map8-te-hapua-road-and-side-roads-te-horo.pdf',
+			'PdfUrl': domain + 'pdfs/map8-te-hapua-road-and-side-roads-te-horo.pdf',
 			'PdfName': 'Map 8: Te Hapua Road and side roads, Te Horo'
 		}],
 		'TE HAPUA ROAD AND SIDE ROAD - Mahurenga Lane' : [{
@@ -411,9 +412,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for Purahau Road and adjoining short Mahurenga Lane, which both have rural residential development.',
-			'ImageUrl': domain + 'assets/images/map8-te-hapua-road-and-side-roads-te-horo.gif',
+			'ImageUrl': domain + 'images/map8-te-hapua-road-and-side-roads-te-horo.gif',
 			'ImageBlurb': '<strong>Mahurenga Lane</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map8-te-hapua-road-and-side-roads-te-horo.pdf',
+			'PdfUrl': domain + 'pdfs/map8-te-hapua-road-and-side-roads-te-horo.pdf',
 			'PdfName': 'Map 8: Te Hapua Road and side roads, Te Horo'
 		}],
 		'TE HORO BEACH NORTH - Te Horo Beach Road Part 1' : [{
@@ -422,9 +423,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is safe and appropriate for this section of road with a one lane bridge and the intersection with Pukenamu Road.',
-			'ImageUrl': domain + 'assets/images/map9-te-horo-beach-north.gif',
+			'ImageUrl': domain + 'images/map9-te-horo-beach-north.gif',
 			'ImageBlurb': '<strong>Te Horo Beach Road</strong> from the 50/80 km/h speed limit signs to 85m east of the 1st one lane bridge.',
-			'PdfUrl': domain + 'assets/pdfs/map9-te-horo-beach-north.pdf',
+			'PdfUrl': domain + 'pdfs/map9-te-horo-beach-north.pdf',
 			'PdfName': 'Map 9: Te Horo Beach north'
 		}],
 		'TE HORO BEACH NORTH - Te Horo Beach Road Part 2' : [{
@@ -433,9 +434,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is safe and appropriate for this windy section of road which includes a one lane bridge and extends to SH1.',
-			'ImageUrl': domain + 'assets/images/map9-te-horo-beach-north.gif',
+			'ImageUrl': domain + 'images/map9-te-horo-beach-north.gif',
 			'ImageBlurb': '<strong>Te Horo Beach Road</strong> from 105m west of the 2nd one way bridge to SH1.',
-			'PdfUrl': domain + 'assets/pdfs/map9-te-horo-beach-north.pdf',
+			'PdfUrl': domain + 'pdfs/map9-te-horo-beach-north.pdf',
 			'PdfName': 'Map 9: Te Horo Beach north'
 		}],
 		'TE HORO BEACH NORTH - Harakeke Road' : [{
@@ -444,9 +445,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60km/h speed limit is considered the safe and appropriate speed limit for this no-exit rural road.',
-			'ImageUrl': domain + 'assets/images/map9-te-horo-beach-north.gif',
+			'ImageUrl': domain + 'images/map9-te-horo-beach-north.gif',
 			'ImageBlurb': '<strong>Harakeke Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map9-te-horo-beach-north.pdf',
+			'PdfUrl': domain + 'pdfs/map9-te-horo-beach-north.pdf',
 			'PdfName': 'Map 9: Te Horo Beach north'
 		}],
 		'TE HORO BEACH NORTH - Addington Road' : [{
@@ -455,9 +456,9 @@ var allRoads =
 			'Current': '70',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for this windy rural road and reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map9-te-horo-beach-north.gif',
+			'ImageUrl': domain + 'images/map9-te-horo-beach-north.gif',
 			'ImageBlurb': '<strong>Addington Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map9-te-horo-beach-north.pdf',
+			'PdfUrl': domain + 'pdfs/map9-te-horo-beach-north.pdf',
 			'PdfName': 'Map 9: Te Horo Beach north'
 		}],
 		'TE HORO BEACH NORTH - Lethbridge Road' : [{
@@ -466,9 +467,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for these windy rural roads and reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map9-te-horo-beach-north.gif',
+			'ImageUrl': domain + 'images/map9-te-horo-beach-north.gif',
 			'ImageBlurb': '<strong>Lethbridge Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map9-te-horo-beach-north.pdf',
+			'PdfUrl': domain + 'pdfs/map9-te-horo-beach-north.pdf',
 			'PdfName': 'Map 9: Te Horo Beach north'
 		}],
 		'TE HORO BEACH NORTH - Swamp Road' : [{
@@ -477,9 +478,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for these windy rural roads and reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map9-te-horo-beach-north.gif',
+			'ImageUrl': domain + 'images/map9-te-horo-beach-north.gif',
 			'ImageBlurb': '<strong>Swamp Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map9-te-horo-beach-north.pdf',
+			'PdfUrl': domain + 'pdfs/map9-te-horo-beach-north.pdf',
 			'PdfName': 'Map 9: Te Horo Beach north'
 		}],
 		'TE HORO BEACH NORTH - Te Waka Road' : [{
@@ -488,9 +489,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for these windy rural roads and reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map9-te-horo-beach-north.gif',
+			'ImageUrl': domain + 'images/map9-te-horo-beach-north.gif',
 			'ImageBlurb': '<strong>Te Waka Road</strong> from 70m south of Addington Road north to the end.',
-			'PdfUrl': domain + 'assets/pdfs/map9-te-horo-beach-north.pdf',
+			'PdfUrl': domain + 'pdfs/map9-te-horo-beach-north.pdf',
 			'PdfName': 'Map 9: Te Horo Beach north'
 		}],
 		'TE HORO East of SH1 - School Road' : [{
@@ -499,9 +500,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for this short eastern section of School Road and is consistent with the proposed 60 km/h speed limit for the adjoining Hautere Cross Road section.',
-			'ImageUrl': domain + 'assets/images/map10-te-horo-east-of-sh1.gif',
+			'ImageUrl': domain + 'images/map10-te-horo-east-of-sh1.gif',
 			'ImageBlurb': '<strong>School Road</strong> from 90m west of Hautere Cross Road to Hautere Cross Road.',
-			'PdfUrl': domain + 'assets/images/map10-te-horo-east-of-sh1.pdf',
+			'PdfUrl': domain + 'pdfs/map10-te-horo-east-of-sh1.pdf',
 			'PdfName': 'Map 10: Te Horo east of SH1'
 		}],
 		'TE HORO East of SH1 - Blackburne Road' : [{
@@ -510,9 +511,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is appropriate for this short access road and is consistent with the 60 km/h speed limit proposed for the adjoining roads.',
-			'ImageUrl': domain + 'assets/images/map10-te-horo-east-of-sh1.gif',
+			'ImageUrl': domain + 'images/map10-te-horo-east-of-sh1.gif',
 			'ImageBlurb': '<strong>Blackburne Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map10-te-horo-east-of-sh1.pdf',
+			'PdfUrl': domain + 'pdfs/map10-te-horo-east-of-sh1.pdf',
 			'PdfName': 'Map 10: Te Horo east of SH1'
 		}],
 		'TE HORO East of SH1 - Mickell Road' : [{
@@ -521,9 +522,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for this windy narrow end section of this rural road.',
-			'ImageUrl': domain + 'assets/images/map10-te-horo-east-of-sh1.gif',
+			'ImageUrl': domain + 'images/map10-te-horo-east-of-sh1.gif',
 			'ImageBlurb': '<strong>Mickel Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map10-te-horo-east-of-sh1.pdf',
+			'PdfUrl': domain + 'pdfs/map10-te-horo-east-of-sh1.pdf',
 			'PdfName': 'Map 10: Te Horo east of SH1'
 		}],
 		'TE HORO East of SH1 - Catley Road' : [{
@@ -532,9 +533,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for this windy rural no-exit road and is consistent with the 60 km/h speed limit proposed for the adjoining section of Hautere Cross Road.',
-			'ImageUrl': domain + 'assets/images/map10-te-horo-east-of-sh1.gif',
+			'ImageUrl': domain + 'images/map10-te-horo-east-of-sh1.gif',
 			'ImageBlurb': '<strong>Catley Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map10-te-horo-east-of-sh1.pdf',
+			'PdfUrl': domain + 'pdfs/map10-te-horo-east-of-sh1.pdf',
 			'PdfName': 'Map 10: Te Horo east of SH1'
 		}],
 		'TE HORO East of SH1 - Mangaone North Road' :  [{
@@ -543,9 +544,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for this section of road and is consistent with the 60 km/h speed limit proposed for the adjoining section of Hautere Cross Road.',
-			'ImageUrl': domain + 'assets/images/map10-te-horo-east-of-sh1.gif',
+			'ImageUrl': domain + 'images/map10-te-horo-east-of-sh1.gif',
 			'ImageBlurb': '<strong>Mangaone North Road</strong> from Hautere Cross Road to end.',
-			'PdfUrl': domain + 'assets/pdfs/map10-te-horo-east-of-sh1.pdf',
+			'PdfUrl': domain + 'pdfs/map10-te-horo-east-of-sh1.pdf',
 			'PdfName': 'Map 10: Te Horo east of SH1'
 		}],
 		'TE HORO East of SH1 - Hautere Cross Road Part 1' :  [{
@@ -554,9 +555,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for this windy section of road and reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map10-te-horo-east-of-sh1.gif',
+			'ImageUrl': domain + 'images/map10-te-horo-east-of-sh1.gif',
 			'ImageBlurb': '<strong>Hautere Cross Road</strong> from School Road to 150m south west of Mickell Road.',
-			'PdfUrl': domain + 'assets/pdfs/map10-te-horo-east-of-sh1.pdf',
+			'PdfUrl': domain + 'pdfs/map10-te-horo-east-of-sh1.pdf',
 			'PdfName': 'Map 10: Te Horo east of SH1'
 		}],
 		'TE HORO East of SH1 - Hautere Cross Road Part 2' :  [{
@@ -565,9 +566,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '80',
 			'Rationale': 'The proposed 80 km/h speed limit is considered the safe and appropriate speed limit for this straight section of road and reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map10-te-horo-east-of-sh1.gif',
+			'ImageUrl': domain + 'images/map10-te-horo-east-of-sh1.gif',
 			'ImageBlurb': '<strong>Hautere Cross Road<strong> from 256m south of Ōtaki Gorge Road to 150m south west of Mickell Road.',
-			'PdfUrl': domain + 'assets/pdfs/map10-te-horo-east-of-sh1.pdf',
+			'PdfUrl': domain + 'pdfs/map10-te-horo-east-of-sh1.pdf',
 			'PdfName': 'Map 10: Te Horo east of SH1'
 		}],
 		'TE HORO East of SH1 - Hautere Cross Road Part 3' :  [{
@@ -576,9 +577,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for this section of road and the intersecting Ōtaki Gorge Road and reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map10-te-horo-east-of-sh1.gif',
+			'ImageUrl': domain + 'images/map10-te-horo-east-of-sh1.gif',
 			'ImageBlurb': '<strong>Hautere Cross Road<strong> from 348 Hautere Cross Road to Ōtaki Gorge Road to (250m)',
-			'PdfUrl': domain + 'assets/pdfs/map10-te-horo-east-of-sh1.pdf',
+			'PdfUrl': domain + 'pdfs/map10-te-horo-east-of-sh1.pdf',
 			'PdfName': 'Map 10: Te Horo east of SH1'
 		}]
 	},
@@ -589,9 +590,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for these narrow rural no-exit roads.',
-			'ImageUrl': domain + 'assets/images/map12-otaki-gorge-road-west.gif',
+			'ImageUrl': domain + 'images/map12-otaki-gorge-road-west.gif',
 			'ImageBlurb': '<strong>Harper Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map12-otaki-gorge-road-west.pdf',
+			'PdfUrl': domain + 'pdfs/map12-otaki-gorge-road-west.pdf',
 			'PdfName': 'Map 12: Ōtaki Gorge Road west'
 		}],
 		'ŌTAKI GORGE ROAD - Totaranui Road' :  [{
@@ -600,9 +601,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for these narrow rural no-exit roads.',
-			'ImageUrl': domain + 'assets/images/map12-otaki-gorge-road-west.gif',
+			'ImageUrl': domain + 'images/map12-otaki-gorge-road-west.gif',
 			'ImageBlurb': '<strong>Totaranui Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map12-otaki-gorge-road-west.pdf',
+			'PdfUrl': domain + 'pdfs/map12-otaki-gorge-road-west.pdf',
 			'PdfName': 'Map 12: Ōtaki Gorge Road west'
 		}],
 		'ŌTAKI GORGE ROAD - Old Hautere Road' :  [{
@@ -611,9 +612,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '80',
 			'Rationale': 'The proposed 80 km/h speed limit reflects the environment of this road.',
-			'ImageUrl': domain + 'assets/images/map12-otaki-gorge-road-west.gif',
+			'ImageUrl': domain + 'images/map12-otaki-gorge-road-west.gif',
 			'ImageBlurb': '<strong>Old Hautere Road</strong> from SH1 to Ōtaki Gorge Road (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map12-otaki-gorge-road-west.pdf',
+			'PdfUrl': domain + 'pdfs/map12-otaki-gorge-road-west.pdf',
 			'PdfName': 'Map 12: Ōtaki Gorge Road west'
 		}],
 		'ŌTAKI GORGE ROAD - Ōtaki Gorge Road Part 1' :  [{
@@ -622,9 +623,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '80',
 			'Rationale': 'The proposed 80 km/h speed limit reflects the environment of this road.',
-			'ImageUrl': domain + 'assets/images/map12-otaki-gorge-road-west.gif',
+			'ImageUrl': domain + 'images/map12-otaki-gorge-road-west.gif',
 			'ImageBlurb': '<strong>Ōtaki Gorge Road<strong> from 550m south east of SH1 to the start of 80 km/h speed limit at 210m west of Hautere Cross Road.',
-			'PdfUrl': domain + 'assets/pdfs/map12-otaki-gorge-road-west.pdf',
+			'PdfUrl': domain + 'pdfs/map12-otaki-gorge-road-west.pdf',
 			'PdfName': 'Map 12: Ōtaki Gorge Road west'
 		}],
 		'ŌTAKI GORGE ROAD - Ōtaki Gorge Road Part 2' :  [{
@@ -633,9 +634,9 @@ var allRoads =
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for this section of road, which is narrowed by Totara trees planted along both sides of the road, and has a number of property accesses. The road is popular for horse riding, walking and cycling. The trees limit visibility of vulnerable road users using the road, as well as residents accessing their properties.',
-			'ImageUrl': domain + 'assets/images/map12-otaki-gorge-road-west.gif',
+			'ImageUrl': domain + 'images/map12-otaki-gorge-road-west.gif',
 			'ImageBlurb': '<strong>Ōtaki Gorge Road</strong> from 210m west of Hautere Cross Road to 617 Ōtaki Gorge Road (know as the ‘Totara Tunnel’).',
-			'PdfUrl': domain + 'assets/pdfs/map12-otaki-gorge-road-west.pdf',
+			'PdfUrl': domain + 'pdfs/map12-otaki-gorge-road-west.pdf',
 			'PdfName': 'Map 12: Ōtaki Gorge Road west'
 		}],
 		'ŌTAKI GORGE ROAD - Ōtaki Gorge Road Part 3' :  [{
@@ -644,9 +645,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for this section of Ōtaki Gorge Road through to where it ends at Ōtaki Forks as the entrance to the Tararua Forest Park',
-			'ImageUrl': domain + 'assets/images/map11-otaki-gorge-road-east.gif',
+			'ImageUrl': domain + 'images/map11-otaki-gorge-road-east.gif',
 			'ImageBlurb': '<strong>Ōtaki Gorge Road</strong> section from 617 to end at Ōtaki Forks.',
-			'PdfUrl': domain + 'assets/pdfs/map11-otaki-gorge-road-east.pdf',
+			'PdfUrl': domain + 'pdfs/map11-otaki-gorge-road-east.pdf',
 			'PdfName': 'Map 11: Ōtaki Gorge Road east'
 		}],
 		'ŌTAKI GORGE ROAD - Kaitawa Road' :  [{
@@ -655,9 +656,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for these interconnecting narrow windy rural roads off the suspension bridge in Ōtaki Gorge Road, and reflects speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map11-otaki-gorge-road-east.gif',
+			'ImageUrl': domain + 'images/map11-otaki-gorge-road-east.gif',
 			'ImageBlurb': '<strong>Kaitawa Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map11-otaki-gorge-road-east.pdf',
+			'PdfUrl': domain + 'pdfs/map11-otaki-gorge-road-east.pdf',
 			'PdfName': 'Map 11: Ōtaki Gorge Road east'
 		}],
 		'ŌTAKI GORGE ROAD - Parenga Road' :  [{
@@ -666,9 +667,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for these interconnecting narrow windy rural roads off the suspension bridge in Ōtaki Gorge Road, and reflects speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map11-otaki-gorge-road-east.gif',
+			'ImageUrl': domain + 'images/map11-otaki-gorge-road-east.gif',
 			'ImageBlurb': '<strong>Parenga Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map11-otaki-gorge-road-east.pdf',
+			'PdfUrl': domain + 'pdfs/map11-otaki-gorge-road-east.pdf',
 			'PdfName': 'Map 11: Ōtaki Gorge Road east'
 		}],
 		'ŌTAKI GORGE ROAD - Waihoanga Road' :  [{
@@ -677,9 +678,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for these interconnecting narrow windy rural roads off the suspension bridge in Ōtaki Gorge Road, and reflects speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map11-otaki-gorge-road-east.gif',
+			'ImageUrl': domain + 'images/map11-otaki-gorge-road-east.gif',
 			'ImageBlurb': '<strong>Waihoanga Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map11-otaki-gorge-road-east.pdf',
+			'PdfUrl': domain + 'pdfs/map11-otaki-gorge-road-east.pdf',
 			'PdfName': 'Map 11: Ōtaki Gorge Road east'
 		}],
 		'ŌTAKI TOWNSHIP NORTH - Convent Road' :  [{
@@ -688,9 +689,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60km/h speed limit is considered the safe and appropriate speed limit for these adjoining narrow windy rural roads and reflects speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map13-otaki-township-north.gif',
+			'ImageUrl': domain + 'images/map13-otaki-township-north.gif',
 			'ImageBlurb': '<strong>Convent Road</strong> from start of 100 km/h speed limit north of Bennetts Road to end.',
-			'PdfUrl': domain + 'assets/pdfs/map13-otaki-township-north.pdf',
+			'PdfUrl': domain + 'pdfs/map13-otaki-township-north.pdf',
 			'PdfName': 'Map 13: Ōtaki Township north'
 		}],
 		'ŌTAKI TOWNSHIP NORTH - Wairongamai Road' :  [{
@@ -699,9 +700,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60km/h speed limit is considered the safe and appropriate speed limit for these adjoining narrow windy rural roads and reflects speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map13-otaki-township-north.gif',
+			'ImageUrl': domain + 'images/map13-otaki-township-north.gif',
 			'ImageBlurb': '<strong>Wairongamai Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map13-otaki-township-north.pdf',
+			'PdfUrl': domain + 'pdfs/map13-otaki-township-north.pdf',
 			'PdfName': 'Map 13: Ōtaki Township north'
 		}],
 		'ŌTAKI TOWNSHIP NORTH - Old Coach Road north' :  [{
@@ -710,9 +711,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60km/h speed limit is considered the safe and appropriate speed limit for these adjoining narrow windy rural roads and reflects speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map13-otaki-township-north.gif',
+			'ImageUrl': domain + 'images/map13-otaki-township-north.gif',
 			'ImageBlurb': '<strong>Old Coach Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map13-otaki-township-north.pdf',
+			'PdfUrl': domain + 'pdfs/map13-otaki-township-north.pdf',
 			'PdfName': 'Map 13: Ōtaki Township north'
 		}],
 		'RURAL ROADS OFF SH1 NORTH OF ŌTAKI - Taylors Road (SH1 – end)' :  [{
@@ -721,9 +722,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60km/h speed limit is considered the safe and appropriate speed limit for these three narrow windy rural roads and reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map14-otaki-north.gif',
+			'ImageUrl': domain + 'images/map14-otaki-north.gif',
 			'ImageBlurb': '<strong>Taylors Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map14-otaki-north.pdf',
+			'PdfUrl': domain + 'pdfs/map14-otaki-north.pdf',
 			'PdfName': 'Map 14: Ōtaki north'
 		}],
 		'RURAL ROADS OFF SH1 NORTH OF ŌTAKI - Forest Lakes Road' :  [{
@@ -732,9 +733,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60km/h speed limit is considered the safe and appropriate speed limit for these three narrow windy rural roads and reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map14-otaki-north.gif',
+			'ImageUrl': domain + 'images/map14-otaki-north.gif',
 			'ImageBlurb': '<strong>Forest Lakes Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map14-otaki-north.pdf',
+			'PdfUrl': domain + 'pdfs/map14-otaki-north.pdf',
 			'PdfName': 'Map 14: Ōtaki north'
 		}],
 		'RURAL ROADS OFF SH1 NORTH OF ŌTAKI - Atkins Road' :  [{
@@ -743,9 +744,9 @@ var allRoads =
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60km/h speed limit is considered the safe and appropriate speed limit for these three narrow windy rural roads and reflects the speed at which traffic travels.',
-			'ImageUrl': domain + 'assets/images/map14-otaki-north.gif',
+			'ImageUrl': domain + 'images/map14-otaki-north.gif',
 			'ImageBlurb': '<strong>Atkins Road</strong> (full length).',
-			'PdfUrl': domain + 'assets/pdfs/map14-otaki-north.pdf',
+			'PdfUrl': domain + 'pdfs/map14-otaki-north.pdf',
 			'PdfName': 'Map 14: Ōtaki north'
 		}]
 	}
@@ -788,9 +789,8 @@ function addNewRoad(area, title, attributes, count){
 }		
 
 $(document).ready(function() {
-	//Add accordion element
-	$('<div id="accordion" class="panel-group"></div>' ).insertAfter( "#top-element" );
-
+	$('#first-div').empty();
+	
 	var count = 0;
 	$.each(allRoads, function(area, attrs) {
 		var newChild = $('#first-div').append('<div id="' + area.replace(/\s/g, '') +'" class="panel-group"></div>')
