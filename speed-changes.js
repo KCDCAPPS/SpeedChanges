@@ -694,20 +694,20 @@ var allRoads =
 			'PdfUrl': domain + 'pdfs/map13-otaki-township-north.pdf',
 			'PdfName': 'Map 13: Ōtaki Township north'
 		}],
-		'ŌTAKI TOWNSHIP NORTH - Wairongamai Road' :  [{
-			'Road': 'Wairongamai Road',
+		'ŌTAKI TOWNSHIP NORTH - Waiorongomai Road' :  [{
+			'Road': 'Waiorongomai Road',
 			'FromTo': 'From Old Coach Road north to end (3322m)',
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60km/h speed limit is considered the safe and appropriate speed limit for these adjoining narrow windy rural roads and reflects speed at which traffic travels.',
 			'ImageUrl': domain + 'images/map13-otaki-township-north.gif',
-			'ImageBlurb': '<strong>Wairongamai Road</strong> (full length).',
+			'ImageBlurb': '<strong>Waiorongomai Road</strong> (full length).',
 			'PdfUrl': domain + 'pdfs/map13-otaki-township-north.pdf',
 			'PdfName': 'Map 13: Ōtaki Township north'
 		}],
 		'ŌTAKI TOWNSHIP NORTH - Old Coach Road north' :  [{
 			'Road': 'Old Coach Road north',
-			'FromTo': 'From Wairongamai Road to end (950m north) (840m south)',
+			'FromTo': 'From Waiorongomai Road to end (950m north) (840m south)',
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60km/h speed limit is considered the safe and appropriate speed limit for these adjoining narrow windy rural roads and reflects speed at which traffic travels.',
