@@ -6,7 +6,7 @@ var allRoads =
 	'Paekākāriki to Raumati South Roads': {
 		'PAEKĀKĀRIKI VILLAGE CENTRE - Beach Road': [{
 			'Road': 'Beach Road',
-			'FromTo': 'From SH1 to The Parade (223m).',
+			'FromTo': 'Full Length: From SH1 to The Parade (223m).',
 			'Current': '50',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
@@ -96,7 +96,7 @@ var allRoads =
 	'Raumati Beach to Otaihanga Roads':{
 		'RAUMATI BEACH VILLAGE - Raumati Road': [{
 			'Road': 'Raumati Road',
-			'FromTo': 'From to Matatua Road to 23 Raumati Road (155m)',
+			'FromTo': 'From Matatua Road to 23 Raumati Road (155m)',
 			'Current': '50',
 			'Proposed': '30',
 			'Rationale': 'The proposed 30 km/h speed limit is appropriate for a local village/town centre area, with a lot of pedestrian activity and vehicle movements. 30 km/h also reflects the speed at which traffic travels.',
@@ -485,7 +485,7 @@ var allRoads =
 		}],
 		'TE HORO BEACH NORTH - Te Waka Road' : [{
 			'Road': 'Te Waka Road',
-			'FromTo': 'The 80 km/h sectionfrom 70m south of Addington Road to the end (485m)',
+			'FromTo': 'The 80 km/h section from 70m south of Addington Road to the end (485m)',
 			'Current': '80',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60 km/h speed limit is considered the safe and appropriate speed limit for these windy rural roads and reflects the speed at which traffic travels.',
@@ -562,7 +562,7 @@ var allRoads =
 		}],
 		'TE HORO East of SH1 - Hautere Cross Road Part 2' :  [{
 			'Road': 'Hautere Cross Road Part 2',
-			'FromTo': 'From 218 Hautere Cross Road to the current location of the 80/100 km/h speed limit sign at 348 Hautere Cross Road (i.e. 256m south west of Ōtaki Gorge Road) (1520m)',
+			'FromTo': 'From 218 Hautere Cross Road to the current location of the 80/100 km/h speed limit sign at 348 Hautere Cross Road (i.e. 256m south west of Ōtaki Gorge Road to 150m south of Mickell Road) (1520m)',
 			'Current': '100',
 			'Proposed': '80',
 			'Rationale': 'The proposed 80 km/h speed limit is considered the safe and appropriate speed limit for this straight section of road and reflects the speed at which traffic travels.',
@@ -685,7 +685,7 @@ var allRoads =
 		}],
 		'ŌTAKI TOWNSHIP NORTH - Convent Road' :  [{
 			'Road': 'Convent Road',
-			'FromTo': 'From start of 100 km/h speed limit at 40m north Bennetts Road to end at Wairongomai Road (309m)',
+			'FromTo': 'From start of 100 km/h speed limit at 40m north Bennetts Road to end at Waiorongomai Road (309m)',
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60km/h speed limit is considered the safe and appropriate speed limit for these adjoining narrow windy rural roads and reflects speed at which traffic travels.',
@@ -718,7 +718,7 @@ var allRoads =
 		}],
 		'RURAL ROADS OFF SH1 NORTH OF ŌTAKI - Taylors Road (SH1 – end)' :  [{
 			'Road': 'Taylors Road (SH1 – end)',
-			'FromTo': 'Full length: From SH1 to end (157m (left) 3010 m (right) )',
+			'FromTo': 'Full length: From SH1 to end (157m (left) 3010m (right) )',
 			'Current': '100',
 			'Proposed': '60',
 			'Rationale': 'The proposed 60km/h speed limit is considered the safe and appropriate speed limit for these three narrow windy rural roads and reflects the speed at which traffic travels.',
